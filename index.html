@@ -164,6 +164,109 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.witcicas.com/2021/10/04/%E5%9C%A8Centos%E4%B8%8A%E6%90%AD%E5%BB%BAMinecraft%E6%9C%8D%E5%8B%99%E5%99%A8%E7%9A%84%E5%98%97%E8%A9%A6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/ehckm.jpg">
+      <meta itemprop="name" content="Witcicas">
+      <meta itemprop="description" content="或許不知夢的緣故        流離之人追逐幻影">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Witcicas's Gaming Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/10/04/%E5%9C%A8Centos%E4%B8%8A%E6%90%AD%E5%BB%BAMinecraft%E6%9C%8D%E5%8B%99%E5%99%A8%E7%9A%84%E5%98%97%E8%A9%A6/" class="post-title-link" itemprop="url">在Centos上搭建Minecraft服務器的嘗試</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-10-04 23:04:39 / 修改时间：23:57:08" itemprop="dateCreated datePublished" datetime="2021-10-04T23:04:39+08:00">2021-10-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%B8%B8%E6%88%8F/" itemprop="url" rel="index"><span itemprop="name">游戏</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2021/10/04/%E5%9C%A8Centos%E4%B8%8A%E6%90%AD%E5%BB%BAMinecraft%E6%9C%8D%E5%8B%99%E5%99%A8%E7%9A%84%E5%98%97%E8%A9%A6/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/10/04/在Centos上搭建Minecraft服務器的嘗試/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>有點想玩暮色森林，然而作者還擱在1.16.5的測試中，只能拿1.12.2來玩玩了。剛接觸這個mod大概在6年前用1.7.2測試玩，那時倒沒有奇葩附魔之類的流流，只是單純的插件與模組的快樂。這個模組目前完成了大概80%，劇情適中，可以當另一個世界用，不過總體還是適合單人遊戲，因為某玩家劇情boss弄完后其他玩家就得重置世界了，不過我還是想把它放到服務器上，因為覺得這是個類多人rpg的模組，單人遊戲難以獲得持續的快樂<del>Minecraft多人才永遠快樂(永恆)</del></p>
+<p>​    至於如何去方法，mcbbs有很多可以參考，<del>不會甚至去csdn上翻</del>，我只紀録下遇到的坑點，給自己留個幾號</p>
+<hr>
+<h2 id="成功運行服務端卻搜索不到IP"><a href="#成功運行服務端卻搜索不到IP" class="headerlink" title="成功運行服務端卻搜索不到IP:"></a>成功運行服務端卻搜索不到IP:</h2><h4 id="當使用雲服務器時"><a href="#當使用雲服務器時" class="headerlink" title="當使用雲服務器時:"></a>當使用雲服務器時:</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1 检查配置文件server.properties中的server-ip=选项，默認不填或0.0.0.0</span><br><span class="line">2 检查云服务器控制台中的安全组是否开放端口，因為我用的是阿里雲，記得在安全組開25565端口</span><br></pre></td></tr></table></figure>
+
+<h4 id="當使用linux系統-如Centos，Ubuntu"><a href="#當使用linux系統-如Centos，Ubuntu" class="headerlink" title="當使用linux系統(如Centos，Ubuntu)"></a>當使用linux系統(如Centos，Ubuntu)</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1 linux系统自带防火墙是否关闭；centos7為例的命令（沒錯就我一直忘了系統居然自帶防火墻）</span><br><span class="line">systemctl stop firewalld.service</span><br><span class="line">systemctl disable firewalld.service</span><br><span class="line"></span><br><span class="line">2 SELinux是否关闭；在配置文件修改</span><br><span class="line">vi /etc/selinux/config</span><br><span class="line">将SELINUX=enforcing改为SELINUX=disabled</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="無法啓動服務端："><a href="#無法啓動服務端：" class="headerlink" title="無法啓動服務端："></a>無法啓動服務端：</h3><p>如果玩模組服，強烈建議每放1~3個mod時在本地的win server上運行一遍，包括但不限於語言衝突，ID類型衝突，粒子效應衝突等等，否則就一直錯誤警告強制停止而摸不着頭，另外服務端運行的內存需要設定正確，比如我2g的服務器大概只能弄個1g的java運行內存，否則時常宕機</p>
+<hr>
+<h2 id="關於java8安裝錯誤不會裝的問題"><a href="#關於java8安裝錯誤不會裝的問題" class="headerlink" title="關於java8安裝錯誤不會裝的問題:"></a>關於java8安裝錯誤<del>不會裝</del>的問題:</h2><p>因為個人的阿里雲內存不足，通常1.15.X以上的純淨得要4g才流暢運行，所有選擇1.12.2，然而網上的jre/jdk怎麽都是1.8.0.118之類的，軟件直鏈都過期了，官網上還得註冊的繁瑣步驟，個人直接下載，ftp傳到linux上，在linux上運行/解壓時得設置cd好正確的運行目録及正確的文件名，否則就無法找到文件</p>
+<p>出現如這些提示</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java/***/libawt_xawt.so: libXtst.so.6: 无法打开共享对象文件: 没有那个文件或目录</span><br></pre></td></tr></table></figure>
+
+
+
+<p>使用     <code>yum install libXi libXp libXtst</code></p>
+<p>……待補充</p>
+<h2 id="關於1-12-2客戶端下載"><a href="#關於1-12-2客戶端下載" class="headerlink" title="關於1.12.2客戶端下載"></a>關於1.12.2客戶端下載</h2><p><a href="%E9%93%BE%E6%8E%A5%EF%BC%9Ahttps://pan.baidu.com/s/1NZjiYPa4cpB4zOn8RX92_w">提取碼7777</a>度盤真不理想，阿里盤弄不了，下次嘗試弄個個人雲盤掛在服務器上</p>
+<h2 id="關於我搭建Minecraft服務器"><a href="#關於我搭建Minecraft服務器" class="headerlink" title="關於我搭建Minecraft服務器"></a>關於我搭建Minecraft服務器</h2><p>只要有1.12.2純淨+暮色森林模組就能連接至 <code>mc.witcicas.com</code>一起遊玩了！</p>
+<p>目前服務器只能載一個大型模組+各類插件，至於插件還在調整</p>
+<p>…待續</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://www.witcicas.com/2021/10/03/%E5%86%8D%E8%AF%95Ninja/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -774,7 +877,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -787,7 +890,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
