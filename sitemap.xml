@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.witcicas.com/2022/01/27/%E6%97%A5%E5%B8%B8/</loc>
+    
+    <lastmod>2022-01-30</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.witcicas.com/about/index.html</loc>
     
     <lastmod>2022-01-29</lastmod>
@@ -24,13 +31,6 @@
   
   <url>
     <loc>https://www.witcicas.com/2021/12/31/%E4%BA%A4%E6%98%93%E7%9A%84%E7%9C%9F%E7%9B%B8/</loc>
-    
-    <lastmod>2022-01-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.witcicas.com/2022/01/27/%E6%97%A5%E5%B8%B8/</loc>
     
     <lastmod>2022-01-27</lastmod>
     
@@ -235,14 +235,14 @@
   </url>
   
   <url>
-    <loc>https://www.witcicas.com/tags/%E9%9B%86%E7%95%B0%E7%92%A7/</loc>
+    <loc>https://www.witcicas.com/tags/%E9%9A%8F%E8%B0%88/</loc>
     <lastmod>2022-01-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.witcicas.com/tags/%E9%9A%8F%E8%B0%88/</loc>
+    <loc>https://www.witcicas.com/tags/%E9%9B%86%E7%95%B0%E7%92%A7/</loc>
     <lastmod>2022-01-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
