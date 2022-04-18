@@ -284,6 +284,13 @@
   </url>
   
   <url>
+    <loc>https://www.witcicas.com/tags/Run/</loc>
+    <lastmod>2022-04-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.witcicas.com/tags/%E8%A1%8C%E7%82%BA%E5%AD%B8/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
@@ -292,13 +299,6 @@
   
   <url>
     <loc>https://www.witcicas.com/tags/%E5%BF%83%E7%90%86%E5%AD%B8/</loc>
-    <lastmod>2022-04-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.witcicas.com/tags/Run/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
