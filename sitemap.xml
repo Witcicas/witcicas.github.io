@@ -172,14 +172,14 @@
 
   
   <url>
-    <loc>https://www.witcicas.com/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://www.witcicas.com/tags/%E6%B1%82%E7%94%9F%E4%B9%8B%E8%B7%AF2/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.witcicas.com/tags/%E6%B1%82%E7%94%9F%E4%B9%8B%E8%B7%AF2/</loc>
+    <loc>https://www.witcicas.com/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -256,6 +256,13 @@
   </url>
   
   <url>
+    <loc>https://www.witcicas.com/tags/%E9%9A%8F%E8%B0%88/</loc>
+    <lastmod>2022-04-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.witcicas.com/tags/%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
@@ -271,13 +278,6 @@
   
   <url>
     <loc>https://www.witcicas.com/tags/%E3%80%8A%E8%8F%AF%E7%88%BE%E8%A1%97%E5%B9%BD%E9%9D%88%E3%80%8B/</loc>
-    <lastmod>2022-04-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.witcicas.com/tags/%E9%9A%8F%E8%B0%88/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -305,13 +305,6 @@
   </url>
   
   <url>
-    <loc>https://www.witcicas.com/tags/%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2022-04-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.witcicas.com/tags/Procrastinate/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
@@ -320,6 +313,13 @@
   
   <url>
     <loc>https://www.witcicas.com/tags/%E6%8B%96%E5%BB%B6%E6%88%90%E5%8A%9F%E5%AD%A6/</loc>
+    <lastmod>2022-04-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.witcicas.com/tags/%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -356,14 +356,14 @@
 
   
   <url>
-    <loc>https://www.witcicas.com/categories/%E6%9D%82%E8%B0%88/</loc>
+    <loc>https://www.witcicas.com/categories/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.witcicas.com/categories/%E6%B8%B8%E6%88%8F/</loc>
+    <loc>https://www.witcicas.com/categories/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -405,14 +405,14 @@
   </url>
   
   <url>
-    <loc>https://www.witcicas.com/categories/%E9%97%B2%E8%B0%88/</loc>
+    <loc>https://www.witcicas.com/categories/%E9%98%85%E8%AF%BB2022/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.witcicas.com/categories/%E9%98%85%E8%AF%BB2022/</loc>
+    <loc>https://www.witcicas.com/categories/%E9%97%B2%E8%B0%88/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
