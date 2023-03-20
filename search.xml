@@ -75,39 +75,48 @@
       </tags>
   </entry>
   <entry>
-    <title>中秋圆月</title>
-    <url>/posts/f4d39731/</url>
-    <content><![CDATA[<p>​        图片小集</p>
-<span id="more"></span>
-
-
-
-<img src="/posts/f4d39731/22.jpg" class="" title="This is a test jpg.">
-
-<p><em>今人不見古時月，今月曾經照古人</em></p>
-<img src="/posts/f4d39731/33.jpg" class="" title="This is a test jpg.">
-
-
-
-
-
-
-
-<p>古今多少歲月愁？稼轩一首《木兰花慢》之中登峰造极，作者仿《天问》体，在中秋之夜向浩荡天地发问：</p>
-<blockquote>
-<p><strong>可怜今夕月，向何处、去悠悠？是别有人间，那边才见，光影东头？是天外空汗漫，但长风、浩浩送中秋？飞镜无根谁系？姮娥不嫁谁留？</strong></p>
-<p><strong>谓经海底问无由，恍惚使人愁。怕万里长鲸，纵横触破，玉殿琼楼。虾蟆故堪浴水，问云何、玉兔解沉浮？若道都齐无恙，云何渐渐如钩？</strong></p>
-</blockquote>
+    <title>在CentOs上嘗試搭建Minecraft服務器</title>
+    <url>/posts/797194f4/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言 "></a>前言 <span id="more"></span></h2><p>有點想玩暮色森林，然而作者還擱在1.16.5的測試中，只能拿1.15.2來玩玩了。剛接觸這個mod大概在6年前用1.7.2測試玩，那時倒沒有奇葩附魔之類的流流，只是單純的插件與模組的快樂。這個模組目前完成了大概80%，劇情適中，可以當另一個世界用，不過總體還是適合單人遊戲，因為某玩家劇情boss弄完后其他玩家就得重置世界了，不過我還是想把它放到服務器上，因為覺得這是個類多人rpg的模組，單人遊戲難以獲得持續的快樂<del>Minecraft多人才永遠快樂(永恆)</del></p>
+<p>​    至於如何去方法，mcbbs有很多可以參考，<del>不會甚至去csdn上翻</del>，我只紀録下遇到的坑點，給自己留個幾號</p>
 <hr>
-<img src="/posts/f4d39731/44.jpg" class="" title="This is a test jpg.">
+<h2 id="成功運行服務端卻搜索不到IP"><a href="#成功運行服務端卻搜索不到IP" class="headerlink" title="成功運行服務端卻搜索不到IP:"></a>成功運行服務端卻搜索不到IP:</h2><h4 id="當使用雲服務器時"><a href="#當使用雲服務器時" class="headerlink" title="當使用雲服務器時:"></a>當使用雲服務器時:</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 检查配置文件server.properties中的server-ip=选项，默認不填或0.0.0.0</span><br><span class="line">2 检查云服务器控制台中的安全组是否开放端口，因為我用的是阿里雲，記得在安全組開25565端口</span><br></pre></td></tr></table></figure>
 
-<p>來自圖誌協的關愛及千裏外十日前珍藏的小餅</p>
+<h4 id="當使用linux系統-如Centos，Ubuntu"><a href="#當使用linux系統-如Centos，Ubuntu" class="headerlink" title="當使用linux系統(如Centos，Ubuntu)"></a>當使用linux系統(如Centos，Ubuntu)</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 linux系统自带防火墙是否关闭；centos7為例的命令（沒錯就我一直忘了系統居然自帶防火墻）</span><br><span class="line">systemctl stop firewalld.service</span><br><span class="line">systemctl disable firewalld.service</span><br><span class="line"></span><br><span class="line">2 SELinux是否关闭；在配置文件修改</span><br><span class="line">vi /etc/selinux/config</span><br><span class="line">将SELINUX=enforcing改为SELINUX=disabled</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="無法啓動服務端："><a href="#無法啓動服務端：" class="headerlink" title="無法啓動服務端："></a>無法啓動服務端：</h3><p>如果玩模組服，強烈建議每放1~3個mod時在本地的win server上運行一遍，包括但不限於語言衝突，ID類型衝突，粒子效應衝突等等，否則就一直錯誤警告強制停止而摸不着頭，另外服務端運行的內存需要設定正確，比如我2g的服務器大概只能弄個1g的java運行內存，否則時常宕機</p>
+<hr>
+<h2 id="關於java8安裝錯誤不會裝的問題"><a href="#關於java8安裝錯誤不會裝的問題" class="headerlink" title="關於java8安裝錯誤不會裝的問題:"></a>關於java8安裝錯誤<del>不會裝</del>的問題:</h2><p>因為個人的阿里雲內存不足，通常1.15.X以上的純淨得要4g才流暢運行，所有選擇1.12.2，然而網上的jre/jdk怎麽都是1.8.0.118之類的，軟件直鏈都過期了，官網上還得註冊的繁瑣步驟，個人直接下載，ftp傳到linux上，在linux上運行/解壓時得設置cd好正確的運行目録及正確的文件名，否則就無法找到文件</p>
+<p>出現如這些提示</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">java/***/libawt_xawt.so: libXtst.so.6: 无法打开共享对象文件: 没有那个文件或目录</span><br></pre></td></tr></table></figure>
+
+
+
+<p>使用     <code>yum install libXi libXp libXtst</code></p>
+<p>……待補充</p>
+<h2 id="關於1-15-2客戶端下載"><a href="#關於1-15-2客戶端下載" class="headerlink" title="關於1.15.2客戶端下載"></a>關於1.15.2客戶端下載</h2><p>[提取碼7777]<a href="https://pan.baidu.com/s/1o0oW_V45EzCYOhIAS6Fc_w">https://pan.baidu.com/s/1o0oW_V45EzCYOhIAS6Fc_w</a></p>
+<p>阿里盤弄不了，下次嘗試弄個個人雲盤掛在服務器上</p>
+<h2 id="關於我搭建Minecraft服務器"><a href="#關於我搭建Minecraft服務器" class="headerlink" title="關於我搭建Minecraft服務器"></a>關於我搭建Minecraft服務器</h2><p>只要有1.15.2+冰与火+虚无世界，就能連接至 <code>mc.witcicas.com</code>一起遊玩了！</p>
+<p>目前服務器能載二個大型模組+<del>各類插件</del></p>
+<img src="/posts/797194f4/c.png" class="" title="This is a test png.">
+
+
+
+<img src="/posts/797194f4/xx.png" class="" title="This is a test png.">
+
+
+
+<h4 id="關於插件管理的進度"><a href="#關於插件管理的進度" class="headerlink" title="關於插件管理的進度"></a>關於插件管理的進度</h4><p>我現在着實難綳，forge端原來不支持插件的，只能另弄spigot傳到服務器上(暫時擱置)，沒錯插件指令目前用不了</p>
+<hr>
+<p>现在又尝试弄个海绵服，2個大型模組裝上去后大概要1.5g，服務器宕機了…</p>
+<h2 id="尾言"><a href="#尾言" class="headerlink" title="尾言"></a>尾言</h2><p>關服…完</p>
 ]]></content>
       <categories>
-        <category>杂谈</category>
+        <category>游戏</category>
       </categories>
       <tags>
-        <tag>生活</tag>
+        <tag>我的世界</tag>
       </tags>
   </entry>
   <entry>
@@ -214,51 +223,6 @@
       </tags>
   </entry>
   <entry>
-    <title>在CentOs上嘗試搭建Minecraft服務器</title>
-    <url>/posts/797194f4/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言 "></a>前言 <span id="more"></span></h2><p>有點想玩暮色森林，然而作者還擱在1.16.5的測試中，只能拿1.15.2來玩玩了。剛接觸這個mod大概在6年前用1.7.2測試玩，那時倒沒有奇葩附魔之類的流流，只是單純的插件與模組的快樂。這個模組目前完成了大概80%，劇情適中，可以當另一個世界用，不過總體還是適合單人遊戲，因為某玩家劇情boss弄完后其他玩家就得重置世界了，不過我還是想把它放到服務器上，因為覺得這是個類多人rpg的模組，單人遊戲難以獲得持續的快樂<del>Minecraft多人才永遠快樂(永恆)</del></p>
-<p>​    至於如何去方法，mcbbs有很多可以參考，<del>不會甚至去csdn上翻</del>，我只紀録下遇到的坑點，給自己留個幾號</p>
-<hr>
-<h2 id="成功運行服務端卻搜索不到IP"><a href="#成功運行服務端卻搜索不到IP" class="headerlink" title="成功運行服務端卻搜索不到IP:"></a>成功運行服務端卻搜索不到IP:</h2><h4 id="當使用雲服務器時"><a href="#當使用雲服務器時" class="headerlink" title="當使用雲服務器時:"></a>當使用雲服務器時:</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 检查配置文件server.properties中的server-ip=选项，默認不填或0.0.0.0</span><br><span class="line">2 检查云服务器控制台中的安全组是否开放端口，因為我用的是阿里雲，記得在安全組開25565端口</span><br></pre></td></tr></table></figure>
-
-<h4 id="當使用linux系統-如Centos，Ubuntu"><a href="#當使用linux系統-如Centos，Ubuntu" class="headerlink" title="當使用linux系統(如Centos，Ubuntu)"></a>當使用linux系統(如Centos，Ubuntu)</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 linux系统自带防火墙是否关闭；centos7為例的命令（沒錯就我一直忘了系統居然自帶防火墻）</span><br><span class="line">systemctl stop firewalld.service</span><br><span class="line">systemctl disable firewalld.service</span><br><span class="line"></span><br><span class="line">2 SELinux是否关闭；在配置文件修改</span><br><span class="line">vi /etc/selinux/config</span><br><span class="line">将SELINUX=enforcing改为SELINUX=disabled</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h3 id="無法啓動服務端："><a href="#無法啓動服務端：" class="headerlink" title="無法啓動服務端："></a>無法啓動服務端：</h3><p>如果玩模組服，強烈建議每放1~3個mod時在本地的win server上運行一遍，包括但不限於語言衝突，ID類型衝突，粒子效應衝突等等，否則就一直錯誤警告強制停止而摸不着頭，另外服務端運行的內存需要設定正確，比如我2g的服務器大概只能弄個1g的java運行內存，否則時常宕機</p>
-<hr>
-<h2 id="關於java8安裝錯誤不會裝的問題"><a href="#關於java8安裝錯誤不會裝的問題" class="headerlink" title="關於java8安裝錯誤不會裝的問題:"></a>關於java8安裝錯誤<del>不會裝</del>的問題:</h2><p>因為個人的阿里雲內存不足，通常1.15.X以上的純淨得要4g才流暢運行，所有選擇1.12.2，然而網上的jre/jdk怎麽都是1.8.0.118之類的，軟件直鏈都過期了，官網上還得註冊的繁瑣步驟，個人直接下載，ftp傳到linux上，在linux上運行/解壓時得設置cd好正確的運行目録及正確的文件名，否則就無法找到文件</p>
-<p>出現如這些提示</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">java/***/libawt_xawt.so: libXtst.so.6: 无法打开共享对象文件: 没有那个文件或目录</span><br></pre></td></tr></table></figure>
-
-
-
-<p>使用     <code>yum install libXi libXp libXtst</code></p>
-<p>……待補充</p>
-<h2 id="關於1-15-2客戶端下載"><a href="#關於1-15-2客戶端下載" class="headerlink" title="關於1.15.2客戶端下載"></a>關於1.15.2客戶端下載</h2><p>[提取碼7777]<a href="https://pan.baidu.com/s/1o0oW_V45EzCYOhIAS6Fc_w">https://pan.baidu.com/s/1o0oW_V45EzCYOhIAS6Fc_w</a></p>
-<p>阿里盤弄不了，下次嘗試弄個個人雲盤掛在服務器上</p>
-<h2 id="關於我搭建Minecraft服務器"><a href="#關於我搭建Minecraft服務器" class="headerlink" title="關於我搭建Minecraft服務器"></a>關於我搭建Minecraft服務器</h2><p>只要有1.15.2+冰与火+虚无世界，就能連接至 <code>mc.witcicas.com</code>一起遊玩了！</p>
-<p>目前服務器能載二個大型模組+<del>各類插件</del></p>
-<img src="/posts/797194f4/c.png" class="" title="This is a test png.">
-
-
-
-<img src="/posts/797194f4/xx.png" class="" title="This is a test png.">
-
-
-
-<h4 id="關於插件管理的進度"><a href="#關於插件管理的進度" class="headerlink" title="關於插件管理的進度"></a>關於插件管理的進度</h4><p>我現在着實難綳，forge端原來不支持插件的，只能另弄spigot傳到服務器上(暫時擱置)，沒錯插件指令目前用不了</p>
-<hr>
-<p>现在又尝试弄个海绵服，2個大型模組裝上去后大概要1.5g，服務器宕機了…</p>
-<h2 id="尾言"><a href="#尾言" class="headerlink" title="尾言"></a>尾言</h2><p>關服…完</p>
-]]></content>
-      <categories>
-        <category>游戏</category>
-      </categories>
-      <tags>
-        <tag>我的世界</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《叫魂》---從叫魂案中展現的一方社會秩序</title>
     <url>/posts/f4797983/</url>
     <content><![CDATA[<p>​    <span id="more"></span></p>
@@ -280,6 +244,67 @@
       </categories>
       <tags>
         <tag>《叫魂》</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中秋圆月</title>
+    <url>/posts/f4d39731/</url>
+    <content><![CDATA[<p>​        图片小集</p>
+<span id="more"></span>
+
+
+
+<img src="/posts/f4d39731/22.jpg" class="" title="This is a test jpg.">
+
+<p><em>今人不見古時月，今月曾經照古人</em></p>
+<img src="/posts/f4d39731/33.jpg" class="" title="This is a test jpg.">
+
+
+
+
+
+
+
+<p>古今多少歲月愁？稼轩一首《木兰花慢》之中登峰造极，作者仿《天问》体，在中秋之夜向浩荡天地发问：</p>
+<blockquote>
+<p><strong>可怜今夕月，向何处、去悠悠？是别有人间，那边才见，光影东头？是天外空汗漫，但长风、浩浩送中秋？飞镜无根谁系？姮娥不嫁谁留？</strong></p>
+<p><strong>谓经海底问无由，恍惚使人愁。怕万里长鲸，纵横触破，玉殿琼楼。虾蟆故堪浴水，问云何、玉兔解沉浮？若道都齐无恙，云何渐渐如钩？</strong></p>
+</blockquote>
+<hr>
+<img src="/posts/f4d39731/44.jpg" class="" title="This is a test jpg.">
+
+<p>來自圖誌協的關愛及千裏外十日前珍藏的小餅</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>阅读:《巴赫 艾舍尔 哥德尔》</title>
+    <url>/posts/6d255edb/</url>
+    <content><![CDATA[<p>​     <span id="more"></span></p>
+<blockquote>
+<p>有多少人因为卡农而迷恋上古典音乐？来一首巴赫的《<a href="https://c.y.qq.com/base/fcgi-bin/u?__=B0CbrXJt44qx">音乐的奉献</a>》吧！</p>
+</blockquote>
+<h4 id="卡农和赋格"><a href="#卡农和赋格" class="headerlink" title="卡农和赋格"></a>卡农和赋格</h4><p>卡农基本点：单一的主题与它自己相伴而奏，不同声部分别唱出主题“副本”。</p>
+<p>最基本的展现方式：轮唱</p>
+<p>每个音符的作用：旋律的一部分；同一旋律和声部分</p>
+<p>较复杂的卡农：主题副本既在种种时间上，又在音高上相互交错</p>
+<p>更复杂的卡农：各个声部速度不同</p>
+<p>更复杂的卡农: 主题转位，每当原来主题跳上时就跳下，两者所越的半音数目相同</p>
+<p>玄奥的“副本”：逆行–主题依一定时间从后往前奏出（螃蟹卡农）</p>
+<p>赋格：一个主题上以不同声部不同调子不同速度/上下颠倒/从后往前演奏</p>
+<p>赋格开始标识：单独一个声部唱出主题，完后第二个声部或移高五度或降低四度进入；同时第一声部继续对应主题(第二主题)，在节奏和声旋律与主题形成对比。</p>
+<p>…待续</p>
+]]></content>
+      <categories>
+        <category>阅读2021</category>
+      </categories>
+      <tags>
+        <tag>集異璧</tag>
       </tags>
   </entry>
   <entry>
@@ -342,31 +367,6 @@
       </categories>
       <tags>
         <tag>Slay the Spire</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>阅读:《巴赫 艾舍尔 哥德尔》</title>
-    <url>/posts/6d255edb/</url>
-    <content><![CDATA[<p>​     <span id="more"></span></p>
-<blockquote>
-<p>有多少人因为卡农而迷恋上古典音乐？来一首巴赫的《<a href="https://c.y.qq.com/base/fcgi-bin/u?__=B0CbrXJt44qx">音乐的奉献</a>》吧！</p>
-</blockquote>
-<h4 id="卡农和赋格"><a href="#卡农和赋格" class="headerlink" title="卡农和赋格"></a>卡农和赋格</h4><p>卡农基本点：单一的主题与它自己相伴而奏，不同声部分别唱出主题“副本”。</p>
-<p>最基本的展现方式：轮唱</p>
-<p>每个音符的作用：旋律的一部分；同一旋律和声部分</p>
-<p>较复杂的卡农：主题副本既在种种时间上，又在音高上相互交错</p>
-<p>更复杂的卡农：各个声部速度不同</p>
-<p>更复杂的卡农: 主题转位，每当原来主题跳上时就跳下，两者所越的半音数目相同</p>
-<p>玄奥的“副本”：逆行–主题依一定时间从后往前奏出（螃蟹卡农）</p>
-<p>赋格：一个主题上以不同声部不同调子不同速度/上下颠倒/从后往前演奏</p>
-<p>赋格开始标识：单独一个声部唱出主题，完后第二个声部或移高五度或降低四度进入；同时第一声部继续对应主题(第二主题)，在节奏和声旋律与主题形成对比。</p>
-<p>…待续</p>
-]]></content>
-      <categories>
-        <category>阅读2021</category>
-      </categories>
-      <tags>
-        <tag>集異璧</tag>
       </tags>
   </entry>
   <entry>
@@ -565,34 +565,6 @@
       </categories>
   </entry>
   <entry>
-    <title>略读:《拖延心理學》</title>
-    <url>/posts/e74bf053/</url>
-    <content><![CDATA[<p>​      <span id="more"></span></p>
-<p>如果说拖延对应的是个人方面的自尊问题，通过2007年Piers Steel的评论可知，拖延形成的可能原因包括</p>
-<blockquote>
-<p>1.对成功信心的不足</p>
-<p>2.厌恶被人委派任务</p>
-<p>3.注意力分散和易冲动</p>
-<p>4.目标和酬劳过于遥远</p>
-</blockquote>
-<p><em>最近在网络上冲浪迷失了自己，沉迷于虚假的度假时光以及游戏，原本打算整理一下Web3.0的营销体系框架、学点音标与C代码，也只是断断续续的进行，陷入了拖延的泥沼，故找本书来自救下🙃，寻求点方法论。</em>另外，从此文也会在拖延中间断完成的😑。</p>
-<hr>
-<p>拖延一方面是否定自我，拖延的自我煎熬至少比众目睽睽之下的痛苦更能接受；另一方面时间观以期望式思维对待，将时间看成需要战胜的对手，以至于对最后期限无法预期。有时是一种保护盾，以应对恐惧心理，即失败恐惧症。</p>
-<p>总结一下这些，成功可以定义为：自我价值感=能力=表现。那末，我的表现好坏直接成了是否有能力以及是否有价值的衡量标准，唯一标准，唯一定论。而拖延带来的，则是&gt;&gt;拖延成功学：自我价值感=能力≠表现。就会有一种信念护体：我的潜在能力是出色的，前途不可限量。只要我拖着，我就永远不必面对个人能力限制的顶点，就无需面对无法如愿以偿的羞辱。</p>
-<h4 id="拖延与完美主义者"><a href="#拖延与完美主义者" class="headerlink" title="拖延与完美主义者"></a>拖延与完美主义者</h4><p>书中认为拖延者往往是完美主义者。心理学上分为适应型和适应不良型。前者的完美主义是人的本性，后者则带有消沉自责与脱离现实。再者，完美主义者通常是亲力亲为，寻求帮助则是软弱无能的表现，总认为有着一个正确的办法，在此之前都不有任何行动，什么错误风险都避免经历，最终走向拖延。</p>
-<p>举个例子，在生活中想要找份正常的符合个人轨道做事的拖延者是怎样的？不妨说寻找避免参与他人直接竞争的工作到底是怎么想的？就像玩游戏，却拒绝排位对抗类，因为在竞争中失败往往让拖延者感到憎恨，一无是处永远是伤痛，若没有参与真正的竞争中，也就不会失败。即使参与了竞争，拖延者总朝自我限制方向以自断一臂，因为开始时便选择了失败，但这是自愿的，留了一条遗憾性的退路，即下次全力以赴绝对可以，一个间接性的保护了自尊的方式。</p>
-<p>……</p>
-<hr>
-]]></content>
-      <categories>
-        <category>阅读2022</category>
-      </categories>
-      <tags>
-        <tag>Procrastinate</tag>
-        <tag>拖延成功学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>新年の企劃</title>
     <url>/posts/ac206066/</url>
     <content><![CDATA[<p>​        <span id="more"></span></p>
@@ -661,6 +633,34 @@
       <tags>
         <tag>行為學</tag>
         <tag>心理學</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>略读:《拖延心理學》</title>
+    <url>/posts/e74bf053/</url>
+    <content><![CDATA[<p>​      <span id="more"></span></p>
+<p>如果说拖延对应的是个人方面的自尊问题，通过2007年Piers Steel的评论可知，拖延形成的可能原因包括</p>
+<blockquote>
+<p>1.对成功信心的不足</p>
+<p>2.厌恶被人委派任务</p>
+<p>3.注意力分散和易冲动</p>
+<p>4.目标和酬劳过于遥远</p>
+</blockquote>
+<p><em>最近在网络上冲浪迷失了自己，沉迷于虚假的度假时光以及游戏，原本打算整理一下Web3.0的营销体系框架、学点音标与C代码，也只是断断续续的进行，陷入了拖延的泥沼，故找本书来自救下🙃，寻求点方法论。</em>另外，从此文也会在拖延中间断完成的😑。</p>
+<hr>
+<p>拖延一方面是否定自我，拖延的自我煎熬至少比众目睽睽之下的痛苦更能接受；另一方面时间观以期望式思维对待，将时间看成需要战胜的对手，以至于对最后期限无法预期。有时是一种保护盾，以应对恐惧心理，即失败恐惧症。</p>
+<p>总结一下这些，成功可以定义为：自我价值感=能力=表现。那末，我的表现好坏直接成了是否有能力以及是否有价值的衡量标准，唯一标准，唯一定论。而拖延带来的，则是&gt;&gt;拖延成功学：自我价值感=能力≠表现。就会有一种信念护体：我的潜在能力是出色的，前途不可限量。只要我拖着，我就永远不必面对个人能力限制的顶点，就无需面对无法如愿以偿的羞辱。</p>
+<h4 id="拖延与完美主义者"><a href="#拖延与完美主义者" class="headerlink" title="拖延与完美主义者"></a>拖延与完美主义者</h4><p>书中认为拖延者往往是完美主义者。心理学上分为适应型和适应不良型。前者的完美主义是人的本性，后者则带有消沉自责与脱离现实。再者，完美主义者通常是亲力亲为，寻求帮助则是软弱无能的表现，总认为有着一个正确的办法，在此之前都不有任何行动，什么错误风险都避免经历，最终走向拖延。</p>
+<p>举个例子，在生活中想要找份正常的符合个人轨道做事的拖延者是怎样的？不妨说寻找避免参与他人直接竞争的工作到底是怎么想的？就像玩游戏，却拒绝排位对抗类，因为在竞争中失败往往让拖延者感到憎恨，一无是处永远是伤痛，若没有参与真正的竞争中，也就不会失败。即使参与了竞争，拖延者总朝自我限制方向以自断一臂，因为开始时便选择了失败，但这是自愿的，留了一条遗憾性的退路，即下次全力以赴绝对可以，一个间接性的保护了自尊的方式。</p>
+<p>……</p>
+<hr>
+]]></content>
+      <categories>
+        <category>阅读2022</category>
+      </categories>
+      <tags>
+        <tag>Procrastinate</tag>
+        <tag>拖延成功学</tag>
       </tags>
   </entry>
   <entry>
