@@ -25,27 +25,27 @@
 <p>雖然操作熟悉，但打開時發現居然比垃圾站的奔騰神教還磨蹭，流暢級別可以說是混沌級了</p>
 <p>開機&gt;滴&gt;4分鐘&gt;滴&gt;載入用戶&gt;滴&gt;環境設置…10分鐘</p>
 <p>拿來挖門羅只有10H/s，於是決定設Gaming服務器了</p>
- <img src="/posts/undefined/text1.jpg" class="" title="This is a test jpg.">
+ <img src="/posts/603c3eec/text1.jpg" class="" title="This is a test jpg.">
 
 
 
 <p>然后解压缩放到自己設立的服務器文件夾</p>
-   <img src="/posts/undefined/22.jpg" class="" title="This is a test jpg.">
+   <img src="/posts/603c3eec/22.jpg" class="" title="This is a test jpg.">
 
 <p>接着在文件夾任意新建*.bat格式</p>
 <p>接着用記事本打開輸入</p>
 <p><code>start steamcmd.exe +login anonymous +force_install_dir l4d2_sv +app_update 222860 validate +quit</code></p>
 <p>保存後繼續雙擊，開始自動下載所需的問價</p>
- <img src="/posts/undefined/1.png" class="" title="This is a test png.">
+ <img src="/posts/603c3eec/1.png" class="" title="This is a test png.">
 
 <p>等待完成</p>
 <h1 id="完成后開始"><a href="#完成后開始" class="headerlink" title="完成后開始"></a>完成后開始</h1><p>進入l4d2_sv文件夾，打开srcds.exe</p>
- <img src="/posts/undefined/2.png" class="" title="This is a test png.">
+ <img src="/posts/603c3eec/2.png" class="" title="This is a test png.">
 
 
 
 <p>自定義設置完</p>
- <img src="/posts/undefined/3.png" class="" title="This is a test png.">
+ <img src="/posts/603c3eec/3.png" class="" title="This is a test png.">
 
 <p>用公網IP登録~</p>
 <p>開始Gaming！</p>
@@ -56,6 +56,22 @@
       </categories>
       <tags>
         <tag>求生之路2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于PPT的那些事</title>
+    <url>/posts/5018c64c/</url>
+    <content><![CDATA[<p> 今日在尋找PPT的資料時發現了一個奇特的PPT，主題是黑金貴族型，關於北方某科技大學的2020招新文案，由一位大神製作。大小為300m。</p>
+<span id="more"></span>
+
+<p>通過這份文檔，PPT的美感不亞於攝影，也注重光與影的配合，以及圖形形狀的黃金比例切割，甚至部分突出，拼接分離。浪子詩歌的美感，亞伯拉罕契約的嚴肅，雕刻、攝影、繪畫，鮮明突出甚至可以表達性格。例如騰訊年峰會的科技式，也用類似形式製作。</p>
+<p>不能忘记人的想象是無窮無盡的。</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -72,15 +88,15 @@
 </blockquote>
 <h1 id="NFT價值邏輯"><a href="#NFT價值邏輯" class="headerlink" title="NFT價值邏輯"></a>NFT價值邏輯</h1><p><em>支付寶最近發佈-我不是胖子系列NFT/杭州亞運會數字火炬NFT 產品，天貓推出中秋NFT數字月餅</em></p>
 <hr>
-<img src="/posts/undefined/C.jpg" class="" title="This is a test jpg.">
+<img src="/posts/7186242a/C.jpg" class="" title="This is a test jpg.">
 
 <p><strong>紧密度高+受众多</strong>：NFT艺术品是NFT和东西本身结合紧密的典范，因为NFT就是这件艺术品的一部分，如果脱离了NFT，这件艺术品的价值也就不复存在。而从NFT艺术品衍生出的NFT+IP的概念也很有趣——也就是NFT就等同于这个IP的所有权，这种等同具有法律效应。这样的NFT，相当于把IP直接商品化投入一个活跃的市场，尽管这件事在法律上问题重重，但毫无疑问是一个能让很多人浮想联翩的概念——比如如果蜘蛛侠的IP被做成了可拆分的NFT，那所有买蜘蛛侠NFT的人都能从未来蜘蛛侠电影的成功里分一杯羹。</p>
-<img src="/posts/undefined/D.jpg" class="" title="This is a test jpg.">
+<img src="/posts/7186242a/D.jpg" class="" title="This is a test jpg.">
 
 <p><strong>紧密度高+受众少</strong>：艺术的世界和任何领域都一样，甚至还犹有过之——最终能够卖出天价并且被认可价值的艺术家仍旧是少数。我不认为NFT会改变这一点，正如同前面所说，NFT和ICO只是助力，而不是化腐朽为神奇的魔法。因此，你可以说对小众艺术家的NFT艺术品是一种资助艺术的行为，但我不觉得这是个好的投资行为，至少，是个需要专业门槛的，有风险的投资行为。同样的，小众IP的创作者可以通过NFT获得收入，但投资小众IP的NFT也是一种有风险的投资。</p>
 <p>但小众艺术品和小众IP的NFT也好，还有一些游戏的道具，游戏卡牌也好……这些虽然可能构不成优秀的投资途径，但通过NFT，区块链将成为一个虚拟物品的开放市场——就如同咸鱼确实给球鞋炒作提供了市场，但炒作只是这个开放市场中的场景之一而已。这实际上是我最看好的，未来NFT能够得到最广泛应用的场景。</p>
 <p><strong>紧密度低+受众多：</strong>参与NFT的同学一定要分辨清楚“NFT艺术品”和“艺术品的NFT”的区别——实际上，万物皆可NFT，一个艺术家可以给自己的艺术品发行一个NFT，这个NFT甚至可以得到艺术家的首肯和官方的认证。但NFT艺术品指的是这个NFT就是这件艺术品本身，而艺术品的NFT则仅仅是这件艺术品上艺术家在某一条区块链上的一个签名而已。而无论是虚拟世界中的重要时刻，比如某个推特的NFT也好；或者一些歌手发表的歌曲的NFT也好；或者是NBA球星发的NFT或者是NBA球星的精彩瞬间的NFT也好，它们都不带有那个东西的任何权益而仅仅具有在这个区块链限定范围内的纪念价值。</p>
-<img src="/posts/undefined/E.jpg" class="" title="This is a test jpg.">
+<img src="/posts/7186242a/E.jpg" class="" title="This is a test jpg.">
 
 <p>换言之，你可以说它们等同于球星卡，或者等同于签名，它们也有大众可以认可的价值，但这个价值和这件东西本身的价值并无多大关联，而更多的在于签名的人和签名本身。比如，最近拍出高价的推特创世人发的第一条推特的NFT——的确，这条推特是有纪念意义的，但问题是，人们在纪念这条推特的时候，和这个NFT有什么关系呢？这就如同朋友一起讨论NBA的某个经典瞬间的时候：小A说这场我当时和同学一起在食堂看的直播；小B说“这场球我在现场”并播放了手机在现场录的视频；小C说我有这位球星的签名球星卡；而小D说我有这场球官方的在以太坊上独一无二的NFT……这四种，到底哪个会受到更广泛的认可，哪个在未来的价值更高呢？这点我不清楚，但事实是，人人都有自己的纪念方式，NFT也仅仅是在NFT这种纪念方式中独一无二而已。</p>
 <p><strong>紧密度低+受众低：</strong>此外，实际上任何人，网红也好、小众圈子中的名人也好，都可以制作任何一个东西的NFT，实际上就是做了一个数字纪念品。我甚至可以预见到未来某位流量明星把自己的每个微博制成NFT卖给粉丝的盛况。我相信这类NFT将会开启一个“NFT纪念品”的市场，但这个市场，会是更大的“明星纪念品”的市场的一部分。而且，除非NFT成了主流，否则一个明星发的NFT，为什么能够比得上明星的亲笔签名？</p>
@@ -107,6 +123,61 @@
       </tags>
   </entry>
   <entry>
+    <title>再試Ninja</title>
+    <url>/posts/4aa410a5/</url>
+    <content><![CDATA[<p>​        <span id="more"></span></p>
+<p>   8月底掛了一次MC好基友搭建的跑庫玩意，jd上每天都有200個豆子，結果9月初原作者刪庫跑路且掃碼又被禁止，只能手動拉ck，不嫌麻煩的我今天又嘗試了一次，結果拉庫XDD機器人時一直出錯，無限循環了，後來才發現執行代碼放錯位置了，半成品還是出來了，個人玩玩倒是可以~</p>
+<img src="/posts/4aa410a5/q.png" class="" title="This is a test png.">
+
+
+
+<img src="/posts/4aa410a5/w.png" class="" title="This is a test png.">
+
+
+
+<img src="/posts/4aa410a5/e.png" class="" title="This is a test png.">
+
+
+
+
+
+
+
+
+
+<p>…待续</p>
+<p>晚上又試了遍，xdd成功拉群裏，開始掛機ing</p>
+<img src="/posts/4aa410a5/t.png" class="" title="This is a test png.">
+
+
+
+
+
+<p><del><a href="http://ddddddd8:5701/">狗东挂机~Ninja,请手动获取ck登录</a></del>   撤了撤了</p>
+<p>移动端简单获取ck方法</p>
+<img src="/posts/4aa410a5/apng.png" class="" title="This is a test png.">
+
+<p>然后</p>
+<img src="/posts/4aa410a5/spng.png" class="" title="This is a test png.">
+
+
+
+<hr>
+<p>用了jing、wang搭建的小组件，xdd该退休了</p>
+<img src="/posts/4aa410a5/132.jpg" class="" title="This is a test jpg.">
+
+
+
+<p>—-完—-</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>闲聊</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>中秋圆月</title>
     <url>/posts/f4d39731/</url>
     <content><![CDATA[<p>​        图片小集</p>
@@ -114,10 +185,10 @@
 
 
 
-<img src="/posts/undefined/22.jpg" class="" title="This is a test jpg.">
+<img src="/posts/f4d39731/22.jpg" class="" title="This is a test jpg.">
 
 <p><em>今人不見古時月，今月曾經照古人</em></p>
-<img src="/posts/undefined/33.jpg" class="" title="This is a test jpg.">
+<img src="/posts/f4d39731/33.jpg" class="" title="This is a test jpg.">
 
 
 
@@ -131,7 +202,7 @@
 <p><strong>谓经海底问无由，恍惚使人愁。怕万里长鲸，纵横触破，玉殿琼楼。虾蟆故堪浴水，问云何、玉兔解沉浮？若道都齐无恙，云何渐渐如钩？</strong></p>
 </blockquote>
 <hr>
-<img src="/posts/undefined/44.jpg" class="" title="This is a test jpg.">
+<img src="/posts/f4d39731/44.jpg" class="" title="This is a test jpg.">
 
 <p>來自圖誌協的關愛及千裏外十日前珍藏的小餅</p>
 ]]></content>
@@ -140,77 +211,6 @@
       </categories>
       <tags>
         <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于PPT的那些事</title>
-    <url>/posts/5018c64c/</url>
-    <content><![CDATA[<p> 今日在尋找PPT的資料時發現了一個奇特的PPT，主題是黑金貴族型，關於北方某科技大學的2020招新文案，由一位大神製作。大小為300m。</p>
-<span id="more"></span>
-
-<p>通過這份文檔，PPT的美感不亞於攝影，也注重光與影的配合，以及圖形形狀的黃金比例切割，甚至部分突出，拼接分離。浪子詩歌的美感，亞伯拉罕契約的嚴肅，雕刻、攝影、繪畫，鮮明突出甚至可以表達性格。例如騰訊年峰會的科技式，也用類似形式製作。</p>
-<p>不能忘记人的想象是無窮無盡的。</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>再試Ninja</title>
-    <url>/posts/4aa410a5/</url>
-    <content><![CDATA[<p>​        <span id="more"></span></p>
-<p>   8月底掛了一次MC好基友搭建的跑庫玩意，jd上每天都有200個豆子，結果9月初原作者刪庫跑路且掃碼又被禁止，只能手動拉ck，不嫌麻煩的我今天又嘗試了一次，結果拉庫XDD機器人時一直出錯，無限循環了，後來才發現執行代碼放錯位置了，半成品還是出來了，個人玩玩倒是可以~</p>
-<img src="/posts/undefined/q.png" class="" title="This is a test png.">
-
-
-
-<img src="/posts/undefined/w.png" class="" title="This is a test png.">
-
-
-
-<img src="/posts/undefined/e.png" class="" title="This is a test png.">
-
-
-
-
-
-
-
-
-
-<p>…待续</p>
-<p>晚上又試了遍，xdd成功拉群裏，開始掛機ing</p>
-<img src="/posts/undefined/t.png" class="" title="This is a test png.">
-
-
-
-
-
-<p><del><a href="http://ddddddd8:5701/">狗东挂机~Ninja,请手动获取ck登录</a></del>   撤了撤了</p>
-<p>移动端简单获取ck方法</p>
-<img src="/posts/undefined/apng.png" class="" title="This is a test png.">
-
-<p>然后</p>
-<img src="/posts/undefined/spng.png" class="" title="This is a test png.">
-
-
-
-<hr>
-<p>用了jing、wang搭建的小组件，xdd该退休了</p>
-<img src="/posts/undefined/132.jpg" class="" title="This is a test jpg.">
-
-
-
-<p>—-完—-</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>闲聊</tag>
       </tags>
   </entry>
   <entry>
@@ -238,11 +238,11 @@
 <p>阿里盤弄不了，下次嘗試弄個個人雲盤掛在服務器上</p>
 <h2 id="關於我搭建Minecraft服務器"><a href="#關於我搭建Minecraft服務器" class="headerlink" title="關於我搭建Minecraft服務器"></a>關於我搭建Minecraft服務器</h2><p>只要有1.15.2+冰与火+虚无世界，就能連接至 <code>mc.witcicas.com</code>一起遊玩了！</p>
 <p>目前服務器能載二個大型模組+<del>各類插件</del></p>
-<img src="/posts/undefined/c.png" class="" title="This is a test png.">
+<img src="/posts/797194f4/c.png" class="" title="This is a test png.">
 
 
 
-<img src="/posts/undefined/xx.png" class="" title="This is a test png.">
+<img src="/posts/797194f4/xx.png" class="" title="This is a test png.">
 
 
 
@@ -283,30 +283,6 @@
       </tags>
   </entry>
   <entry>
-    <title>中二片段【记梦】</title>
-    <url>/posts/7c980ad7/</url>
-    <content><![CDATA[<p>–<span id="more"></span></p>
-<blockquote>
-<p>人會做相同的的夢嗎？還是人只能做那些夢，只因為遺忘而認為人的夢是無限的嗎？</p>
-<p>现在是11月22日，前陣子我看到有人說，夢境只不過是半個囚籠，靈魂意識的分離然後部分的體驗已經設置好了的夢，即大部分情況下，無自主意識的夢對個人來說仍是個圈套。我覺得還是白日夢最靠譜，畢竟在夢中也要做個體意識的主人，下面皆為少年中二妄想症病發的記録…</p>
-</blockquote>
-<blockquote>
-<p>Delete</p>
-</blockquote>
-<hr>
-<hr>
-<blockquote>
-<p>红书描绘的对话构想世界真是疯狂，除了英语课本外看这类便头晕，现在以我看来过去的梦没有意义，遂全部删去</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>记录</category>
-      </categories>
-      <tags>
-        <tag>夢</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>遊戲:簡談殺戮尖塔卡組配置</title>
     <url>/posts/71074274/</url>
     <content><![CDATA[<p>​    <span id="more"></span></p>
@@ -342,6 +318,30 @@
       </categories>
       <tags>
         <tag>Slay the Spire</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中二片段【记梦】</title>
+    <url>/posts/7c980ad7/</url>
+    <content><![CDATA[<p>–<span id="more"></span></p>
+<blockquote>
+<p>人會做相同的的夢嗎？還是人只能做那些夢，只因為遺忘而認為人的夢是無限的嗎？</p>
+<p>现在是11月22日，前陣子我看到有人說，夢境只不過是半個囚籠，靈魂意識的分離然後部分的體驗已經設置好了的夢，即大部分情況下，無自主意識的夢對個人來說仍是個圈套。我覺得還是白日夢最靠譜，畢竟在夢中也要做個體意識的主人，下面皆為少年中二妄想症病發的記録…</p>
+</blockquote>
+<blockquote>
+<p>Delete</p>
+</blockquote>
+<hr>
+<hr>
+<blockquote>
+<p>红书描绘的对话构想世界真是疯狂，除了英语课本外看这类便头晕，现在以我看来过去的梦没有意义，遂全部删去</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>夢</tag>
       </tags>
   </entry>
   <entry>
@@ -400,6 +400,37 @@
       <tags>
         <tag>随谈</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>《交易的真相》摘録</title>
+    <url>/posts/6658979a/</url>
+    <content><![CDATA[<p>​     <span id="more"></span></p>
+<p>K綫廣為流傳的說法：壓力和支撐的相互轉化</p>
+<hr>
+<p>止損點為了防止特殊情況準備的</p>
+<hr>
+<p>趨勢綫：人總是選擇自己願意相信的東西，一旦形成固化思維，總想找到規律(如壓力和支撐)</p>
+<p>KD(隨機指標)</p>
+<p>完全不預測市場的系統：</p>
+<p>不下嗎交易的修正</p>
+<p>1.選擇勝率最高，盈虧比高的做法，且只用一兩種手法</p>
+<p>2.減少操作品種</p>
+<hr>
+<p>“市場的一切行為，都只有一個目的，就是耍你”</p>
+<hr>
+<p>墨菲定律</p>
+<p>1.任何事都沒有表面看起來那麽簡單</p>
+<p>2.所有的事都會比你預計的時間長</p>
+<p>3.會出錯的事總會出錯</p>
+<p>4.如果擔心某種情況發生，那麽它更有可能發生</p>
+<hr>
+<blockquote>
+<p>看了大概一半，就K线分析举例…这名字与内容一比，真噱头~~</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>阅读2021</category>
+      </categories>
   </entry>
   <entry>
     <title>《幽靈的禮物》摘録</title>
@@ -534,37 +565,6 @@
       </tags>
   </entry>
   <entry>
-    <title>《交易的真相》摘録</title>
-    <url>/posts/6658979a/</url>
-    <content><![CDATA[<p>​     <span id="more"></span></p>
-<p>K綫廣為流傳的說法：壓力和支撐的相互轉化</p>
-<hr>
-<p>止損點為了防止特殊情況準備的</p>
-<hr>
-<p>趨勢綫：人總是選擇自己願意相信的東西，一旦形成固化思維，總想找到規律(如壓力和支撐)</p>
-<p>KD(隨機指標)</p>
-<p>完全不預測市場的系統：</p>
-<p>不下嗎交易的修正</p>
-<p>1.選擇勝率最高，盈虧比高的做法，且只用一兩種手法</p>
-<p>2.減少操作品種</p>
-<hr>
-<p>“市場的一切行為，都只有一個目的，就是耍你”</p>
-<hr>
-<p>墨菲定律</p>
-<p>1.任何事都沒有表面看起來那麽簡單</p>
-<p>2.所有的事都會比你預計的時間長</p>
-<p>3.會出錯的事總會出錯</p>
-<p>4.如果擔心某種情況發生，那麽它更有可能發生</p>
-<hr>
-<blockquote>
-<p>看了大概一半，就K线分析举例…这名字与内容一比，真噱头~~</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>阅读2021</category>
-      </categories>
-  </entry>
-  <entry>
     <title>《看人的藝術》摘録</title>
     <url>/posts/3d5d3f15/</url>
     <content><![CDATA[<p>​     <span id="more"></span></p>
@@ -611,30 +611,6 @@
       </tags>
   </entry>
   <entry>
-    <title>貳月闲谈:写在新旧之际</title>
-    <url>/posts/ac591743/</url>
-    <content><![CDATA[<p>​        <span id="more"></span></p>
-<p>  即使立春了，乱云仍低薄暮，雾蒙蒙，寒风吹骨霜刺肌。我缩在家里看书打游戏自得其乐，但仍感到乏味。我常听老头们说会计越老越吃香，我盯着眼前的会计题目上下反复横着看，眼睛突然震颤，非人哉！还真把做两行分录当成了本事？把一个没有门槛的学科揭开其自老头们时代蒙上的面纱，便暴露其色厉内荏的本质。</p>
-<p>   有些东西接触的太少容易吃亏大了，信息差的鸿沟导致个人想法与操作的变形。拿徐州八孩进度看，目前为止发了布四次进展调查，事情像滚筒洗衣机一样无限翻转。谁知道背后有多少手推波助澜？是密谋雇佣混淆还是女拳主义或者监狱免费水军？再看看量化投资人丁鹏对他儿子的教育言语，这背后又反映了什么？我不知道。但希望能走出悲剧的循环，拒绝无关紧要的诱惑。</p>
-<p>  好似祖坟青烟冒，原是阴德积攒来。据说老家北部隔条江的棚改拆了13个村来重建新区，个个发了财；而老家面临的却是区域合并，即将从包邮区二等村民变成包邮区三等村民。这只是发生在生活中的小事。谁想踮高远眺寻找出路，便要面对那层认知的苦海，低质量的信息干扰导致一步错步步错。以我来说，我目前没有真正到洞穴外面去看过世界，只看见火焰在墙上的婆娑黑影和人在其前的恰呀欢呼，就觉得理解了全世界。在这里，满腔精力却无以昂扬，像《金瓯缺》中马扩一样南北奔波，最终会落个马齿徒增，所事无成的地步了么？</p>
-<p>   我抬头看远方细想呆滞，突然被翁的一声惊醒，原来是校园二手群的消息，里面有人在转发“考公火热，欲求一岗速速来报，独立新群”的醒目大字消息。摇头，便觉得无趣，免打扰后就点开朋友圈看看他们的世界如何精彩。第一条醒目的便是某人发的“CPA财务报考班，助你一考无忧！”我浑身寒战，摸着桌上褶皱的初级考试题目，它们如何监视着我的日常？窗外悉悉索索的雨声渐起，摆动僵硬手指往上一拖，是女孩们发在某某地方的场景，我顿时轻松，能看到丰盛而繁华的生活，好生满足，下栏全是友人们的点赞，我细数，一行，两行，居然整整三行，更甚还有人沟通吐槽。便打算整个赞，指间滑过低栏，XX广告的小标下似乎图文，竟止不住自己的脑神经，一抽，XX教育，包过考试，CPA直入眼眶，忽的天地旋转，便似岁月万年从此逝，既负韶华又负君。只觉眼前昏暗，泪点衣襟。在桌头心痛不已。痴痴一梦终究一场空。</p>
-<p>生活在改开时代营造的奇迹神话里，忽视了众多现实事实，只信我之所信。但真相是，哪能考甚么一张证书就能不劳而获？望高处想，企业为什么会对一张证书买单呢，一张对业务没有实质增益的证书。我听闻中建某局的老财即使病倒仍通宵加班拼命干，就算是盖章一年也能盖七亿。就算是多努力效率多高，没有附加值的工作内容，到头来都是劳累与苦闷，却似流水线操作工一样的方式。江湖传言道，一张CPA顶百万工薪，是无名小卒化作武林传奇的名片。可，这张名片若此，真就一张纸而已。若是一个象征呢？</p>
-<p>  我追问自己想怎么样，未来方向是何方。现在有了方向。写下这篇只为了<em>不因此景似曾识，却怪当时思维滞</em>。不愿去惊回首当年，恰逢此间烦扰，若此些琐事反反复复，人生能有几回真实潇洒？当下有感即抒发，好不快活！同自己对话，审视自己，推翻自己。算是漫漫长路的一个脚印。</p>
-<hr>
-<blockquote>
-<p>过去已死！</p>
-<p>未来的世界是对我们所有人的考验</p>
-<p>年轻人终将为过去时代立下墓碑</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>闲谈</category>
-      </categories>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>略读:《拖延心理學》</title>
     <url>/posts/e74bf053/</url>
     <content><![CDATA[<p>​      <span id="more"></span></p>
@@ -660,6 +636,31 @@
       <tags>
         <tag>Procrastinate</tag>
         <tag>拖延成功学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新年の企劃</title>
+    <url>/posts/ac206066/</url>
+    <content><![CDATA[<p>​        <span id="more"></span></p>
+<p>緬甸總督規劃局土耳其分部埃爾多安省西貢特區指令：C計劃啓動！</p>
+<p><del>2022戰略之全球攻勢：</del></p>
+<p><del>★絶密★</del></p>
+<p><del>C#易物項目</del></p>
+<p><del>PTE宇宙電波項目</del></p>
+<p><del>C#2.0公證項目</del></p>
+<p><del>“蓋章七億”老財審判項目</del></p>
+<p><del>“七星連環”超級兵項目</del></p>
+<p>…</p>
+<blockquote>
+<p>试试吧！</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>Run</category>
+      </categories>
+      <tags>
+        <tag>Run</tag>
       </tags>
   </entry>
   <entry>
@@ -705,6 +706,30 @@
       </tags>
   </entry>
   <entry>
+    <title>貳月闲谈:写在新旧之际</title>
+    <url>/posts/ac591743/</url>
+    <content><![CDATA[<p>​        <span id="more"></span></p>
+<p>  即使立春了，乱云仍低薄暮，雾蒙蒙，寒风吹骨霜刺肌。我缩在家里看书打游戏自得其乐，但仍感到乏味。我常听老头们说会计越老越吃香，我盯着眼前的会计题目上下反复横着看，眼睛突然震颤，非人哉！还真把做两行分录当成了本事？把一个没有门槛的学科揭开其自老头们时代蒙上的面纱，便暴露其色厉内荏的本质。</p>
+<p>   有些东西接触的太少容易吃亏大了，信息差的鸿沟导致个人想法与操作的变形。拿徐州八孩进度看，目前为止发了布四次进展调查，事情像滚筒洗衣机一样无限翻转。谁知道背后有多少手推波助澜？是密谋雇佣混淆还是女拳主义或者监狱免费水军？再看看量化投资人丁鹏对他儿子的教育言语，这背后又反映了什么？我不知道。但希望能走出悲剧的循环，拒绝无关紧要的诱惑。</p>
+<p>  好似祖坟青烟冒，原是阴德积攒来。据说老家北部隔条江的棚改拆了13个村来重建新区，个个发了财；而老家面临的却是区域合并，即将从包邮区二等村民变成包邮区三等村民。这只是发生在生活中的小事。谁想踮高远眺寻找出路，便要面对那层认知的苦海，低质量的信息干扰导致一步错步步错。以我来说，我目前没有真正到洞穴外面去看过世界，只看见火焰在墙上的婆娑黑影和人在其前的恰呀欢呼，就觉得理解了全世界。在这里，满腔精力却无以昂扬，像《金瓯缺》中马扩一样南北奔波，最终会落个马齿徒增，所事无成的地步了么？</p>
+<p>   我抬头看远方细想呆滞，突然被翁的一声惊醒，原来是校园二手群的消息，里面有人在转发“考公火热，欲求一岗速速来报，独立新群”的醒目大字消息。摇头，便觉得无趣，免打扰后就点开朋友圈看看他们的世界如何精彩。第一条醒目的便是某人发的“CPA财务报考班，助你一考无忧！”我浑身寒战，摸着桌上褶皱的初级考试题目，它们如何监视着我的日常？窗外悉悉索索的雨声渐起，摆动僵硬手指往上一拖，是女孩们发在某某地方的场景，我顿时轻松，能看到丰盛而繁华的生活，好生满足，下栏全是友人们的点赞，我细数，一行，两行，居然整整三行，更甚还有人沟通吐槽。便打算整个赞，指间滑过低栏，XX广告的小标下似乎图文，竟止不住自己的脑神经，一抽，XX教育，包过考试，CPA直入眼眶，忽的天地旋转，便似岁月万年从此逝，既负韶华又负君。只觉眼前昏暗，泪点衣襟。在桌头心痛不已。痴痴一梦终究一场空。</p>
+<p>生活在改开时代营造的奇迹神话里，忽视了众多现实事实，只信我之所信。但真相是，哪能考甚么一张证书就能不劳而获？望高处想，企业为什么会对一张证书买单呢，一张对业务没有实质增益的证书。我听闻中建某局的老财即使病倒仍通宵加班拼命干，就算是盖章一年也能盖七亿。就算是多努力效率多高，没有附加值的工作内容，到头来都是劳累与苦闷，却似流水线操作工一样的方式。江湖传言道，一张CPA顶百万工薪，是无名小卒化作武林传奇的名片。可，这张名片若此，真就一张纸而已。若是一个象征呢？</p>
+<p>  我追问自己想怎么样，未来方向是何方。现在有了方向。写下这篇只为了<em>不因此景似曾识，却怪当时思维滞</em>。不愿去惊回首当年，恰逢此间烦扰，若此些琐事反反复复，人生能有几回真实潇洒？当下有感即抒发，好不快活！同自己对话，审视自己，推翻自己。算是漫漫长路的一个脚印。</p>
+<hr>
+<blockquote>
+<p>过去已死！</p>
+<p>未来的世界是对我们所有人的考验</p>
+<p>年轻人终将为过去时代立下墓碑</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>闲谈</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>肆月闲谈</title>
     <url>/posts/3e61a8c2/</url>
     <content><![CDATA[<p>​      <span id="more"></span></p>
@@ -722,31 +747,6 @@
       </categories>
       <tags>
         <tag>精神分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新年の企劃</title>
-    <url>/posts/ac206066/</url>
-    <content><![CDATA[<p>​        <span id="more"></span></p>
-<p>緬甸總督規劃局土耳其分部埃爾多安省西貢特區指令：C計劃啓動！</p>
-<p><del>2022戰略之全球攻勢：</del></p>
-<p><del>★絶密★</del></p>
-<p><del>C#易物項目</del></p>
-<p><del>PTE宇宙電波項目</del></p>
-<p><del>C#2.0公證項目</del></p>
-<p><del>“蓋章七億”老財審判項目</del></p>
-<p><del>“七星連環”超級兵項目</del></p>
-<p>…</p>
-<blockquote>
-<p>试试吧！</p>
-</blockquote>
-<hr>
-]]></content>
-      <categories>
-        <category>Run</category>
-      </categories>
-      <tags>
-        <tag>Run</tag>
       </tags>
   </entry>
   <entry>
