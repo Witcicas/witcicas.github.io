@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>关于PPT的那些事</title>
-    <url>/posts/5018c64c/</url>
-    <content><![CDATA[<p> 今日在尋找PPT的資料時發現了一個奇特的PPT，主題是黑金貴族型，關於北方某科技大學的2020招新文案，由一位大神製作。大小為300m。</p>
+    <title>中秋圆月</title>
+    <url>/posts/f4d39731/</url>
+    <content><![CDATA[<p>​        图片小集</p>
 <span id="more"></span>
 
-<p>通過這份文檔，PPT的美感不亞於攝影，也注重光與影的配合，以及圖形形狀的黃金比例切割，甚至部分突出，拼接分離。浪子詩歌的美感，亞伯拉罕契約的嚴肅，雕刻、攝影、繪畫，鮮明突出甚至可以表達性格。例如騰訊年峰會的科技式，也用類似形式製作。</p>
-<p>不能忘记人的想象是無窮無盡的。</p>
+
+
+<img src="/posts/f4d39731/22.jpg" class="" title="This is a test jpg.">
+
+<p><em>今人不見古時月，今月曾經照古人</em></p>
+<img src="/posts/f4d39731/33.jpg" class="" title="This is a test jpg.">
+
+
+
+
+
+
+
+<p>古今多少歲月愁？稼轩一首《木兰花慢》之中登峰造极，作者仿《天问》体，在中秋之夜向浩荡天地发问：</p>
+<blockquote>
+<p><strong>可怜今夕月，向何处、去悠悠？是别有人间，那边才见，光影东头？是天外空汗漫，但长风、浩浩送中秋？飞镜无根谁系？姮娥不嫁谁留？</strong></p>
+<p><strong>谓经海底问无由，恍惚使人愁。怕万里长鲸，纵横触破，玉殿琼楼。虾蟆故堪浴水，问云何、玉兔解沉浮？若道都齐无恙，云何渐渐如钩？</strong></p>
+</blockquote>
+<hr>
+<img src="/posts/f4d39731/44.jpg" class="" title="This is a test jpg.">
+
+<p>來自圖誌協的關愛及千裏外十日前珍藏的小餅</p>
 ]]></content>
       <categories>
         <category>杂谈</category>
@@ -72,6 +92,67 @@
       </categories>
       <tags>
         <tag>求生之路2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于PPT的那些事</title>
+    <url>/posts/5018c64c/</url>
+    <content><![CDATA[<p> 今日在尋找PPT的資料時發現了一個奇特的PPT，主題是黑金貴族型，關於北方某科技大學的2020招新文案，由一位大神製作。大小為300m。</p>
+<span id="more"></span>
+
+<p>通過這份文檔，PPT的美感不亞於攝影，也注重光與影的配合，以及圖形形狀的黃金比例切割，甚至部分突出，拼接分離。浪子詩歌的美感，亞伯拉罕契約的嚴肅，雕刻、攝影、繪畫，鮮明突出甚至可以表達性格。例如騰訊年峰會的科技式，也用類似形式製作。</p>
+<p>不能忘记人的想象是無窮無盡的。</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在CentOs上嘗試搭建Minecraft服務器</title>
+    <url>/posts/797194f4/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言 "></a>前言 <span id="more"></span></h2><p>有點想玩暮色森林，然而作者還擱在1.16.5的測試中，只能拿1.15.2來玩玩了。剛接觸這個mod大概在6年前用1.7.2測試玩，那時倒沒有奇葩附魔之類的流流，只是單純的插件與模組的快樂。這個模組目前完成了大概80%，劇情適中，可以當另一個世界用，不過總體還是適合單人遊戲，因為某玩家劇情boss弄完后其他玩家就得重置世界了，不過我還是想把它放到服務器上，因為覺得這是個類多人rpg的模組，單人遊戲難以獲得持續的快樂<del>Minecraft多人才永遠快樂(永恆)</del></p>
+<p>​    至於如何去方法，mcbbs有很多可以參考，<del>不會甚至去csdn上翻</del>，我只紀録下遇到的坑點，給自己留個幾號</p>
+<hr>
+<h2 id="成功運行服務端卻搜索不到IP"><a href="#成功運行服務端卻搜索不到IP" class="headerlink" title="成功運行服務端卻搜索不到IP:"></a>成功運行服務端卻搜索不到IP:</h2><h4 id="當使用雲服務器時"><a href="#當使用雲服務器時" class="headerlink" title="當使用雲服務器時:"></a>當使用雲服務器時:</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 检查配置文件server.properties中的server-ip=选项，默認不填或0.0.0.0</span><br><span class="line">2 检查云服务器控制台中的安全组是否开放端口，因為我用的是阿里雲，記得在安全組開25565端口</span><br></pre></td></tr></table></figure>
+
+<h4 id="當使用linux系統-如Centos，Ubuntu"><a href="#當使用linux系統-如Centos，Ubuntu" class="headerlink" title="當使用linux系統(如Centos，Ubuntu)"></a>當使用linux系統(如Centos，Ubuntu)</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 linux系统自带防火墙是否关闭；centos7為例的命令（沒錯就我一直忘了系統居然自帶防火墻）</span><br><span class="line">systemctl stop firewalld.service</span><br><span class="line">systemctl disable firewalld.service</span><br><span class="line"></span><br><span class="line">2 SELinux是否关闭；在配置文件修改</span><br><span class="line">vi /etc/selinux/config</span><br><span class="line">将SELINUX=enforcing改为SELINUX=disabled</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="無法啓動服務端："><a href="#無法啓動服務端：" class="headerlink" title="無法啓動服務端："></a>無法啓動服務端：</h3><p>如果玩模組服，強烈建議每放1~3個mod時在本地的win server上運行一遍，包括但不限於語言衝突，ID類型衝突，粒子效應衝突等等，否則就一直錯誤警告強制停止而摸不着頭，另外服務端運行的內存需要設定正確，比如我2g的服務器大概只能弄個1g的java運行內存，否則時常宕機</p>
+<hr>
+<h2 id="關於java8安裝錯誤不會裝的問題"><a href="#關於java8安裝錯誤不會裝的問題" class="headerlink" title="關於java8安裝錯誤不會裝的問題:"></a>關於java8安裝錯誤<del>不會裝</del>的問題:</h2><p>因為個人的阿里雲內存不足，通常1.15.X以上的純淨得要4g才流暢運行，所有選擇1.12.2，然而網上的jre/jdk怎麽都是1.8.0.118之類的，軟件直鏈都過期了，官網上還得註冊的繁瑣步驟，個人直接下載，ftp傳到linux上，在linux上運行/解壓時得設置cd好正確的運行目録及正確的文件名，否則就無法找到文件</p>
+<p>出現如這些提示</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">java/***/libawt_xawt.so: libXtst.so.6: 无法打开共享对象文件: 没有那个文件或目录</span><br></pre></td></tr></table></figure>
+
+
+
+<p>使用     <code>yum install libXi libXp libXtst</code></p>
+<p>……待補充</p>
+<h2 id="關於1-15-2客戶端下載"><a href="#關於1-15-2客戶端下載" class="headerlink" title="關於1.15.2客戶端下載"></a>關於1.15.2客戶端下載</h2><p>[提取碼7777]<a href="https://pan.baidu.com/s/1o0oW_V45EzCYOhIAS6Fc_w">https://pan.baidu.com/s/1o0oW_V45EzCYOhIAS6Fc_w</a></p>
+<p>阿里盤弄不了，下次嘗試弄個個人雲盤掛在服務器上</p>
+<h2 id="關於我搭建Minecraft服務器"><a href="#關於我搭建Minecraft服務器" class="headerlink" title="關於我搭建Minecraft服務器"></a>關於我搭建Minecraft服務器</h2><p>只要有1.15.2+冰与火+虚无世界，就能連接至 <code>mc.witcicas.com</code>一起遊玩了！</p>
+<p>目前服務器能載二個大型模組+<del>各類插件</del></p>
+<img src="/posts/797194f4/c.png" class="" title="This is a test png.">
+
+
+
+<img src="/posts/797194f4/xx.png" class="" title="This is a test png.">
+
+
+
+<h4 id="關於插件管理的進度"><a href="#關於插件管理的進度" class="headerlink" title="關於插件管理的進度"></a>關於插件管理的進度</h4><p>我現在着實難綳，forge端原來不支持插件的，只能另弄spigot傳到服務器上(暫時擱置)，沒錯插件指令目前用不了</p>
+<hr>
+<p>现在又尝试弄个海绵服，2個大型模組裝上去后大概要1.5g，服務器宕機了…</p>
+<h2 id="尾言"><a href="#尾言" class="headerlink" title="尾言"></a>尾言</h2><p>關服…完</p>
+]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>我的世界</tag>
       </tags>
   </entry>
   <entry>
@@ -178,84 +259,27 @@
       </tags>
   </entry>
   <entry>
-    <title>中秋圆月</title>
-    <url>/posts/f4d39731/</url>
-    <content><![CDATA[<p>​        图片小集</p>
-<span id="more"></span>
-
-
-
-<img src="/posts/f4d39731/22.jpg" class="" title="This is a test jpg.">
-
-<p><em>今人不見古時月，今月曾經照古人</em></p>
-<img src="/posts/f4d39731/33.jpg" class="" title="This is a test jpg.">
-
-
-
-
-
-
-
-<p>古今多少歲月愁？稼轩一首《木兰花慢》之中登峰造极，作者仿《天问》体，在中秋之夜向浩荡天地发问：</p>
-<blockquote>
-<p><strong>可怜今夕月，向何处、去悠悠？是别有人间，那边才见，光影东头？是天外空汗漫，但长风、浩浩送中秋？飞镜无根谁系？姮娥不嫁谁留？</strong></p>
-<p><strong>谓经海底问无由，恍惚使人愁。怕万里长鲸，纵横触破，玉殿琼楼。虾蟆故堪浴水，问云何、玉兔解沉浮？若道都齐无恙，云何渐渐如钩？</strong></p>
-</blockquote>
+    <title>《叫魂》---從叫魂案中展現的一方社會秩序</title>
+    <url>/posts/f4797983/</url>
+    <content><![CDATA[<p>​    <span id="more"></span></p>
+<p>  發生在乾隆年間江南德清地區的一莊由剪辮陰魂恐慌案，雖然儒家文化下對於奇異鬼术往往是”敬鬼神而遠之”，官民對此往往持不可知的態度對待，但為何此等可有可無之事會引發全國性的恐慌呢？</p>
+<p>  在中國傳統文化中妖術往往聯繫到鬼神，恐懼的原因來自軀體聯繫的脆弱性，懼怕自己丟魂，意味着普羅大眾間默認存在超自然力量對生活的影響。</p>
+<p>  從受眾對象來說，只是在流浪乞丐與遊方僧道以及官員之間發生，並不包括縉紳卻包括普通平民。起初官員對此事持無為態度，在官僚君主制中，凡是不影響徵收賦稅、救濟賑災等等影響個人仕途的大事，基本都大事化無。但這次君主派遣的秘密監察帶來的消息觸及到了弘歷的神經-剪辮，這既是滿漢之間矛盾的焦點，也是全國統一的維護君權受命於天的正統標誌象徵。維持帝國秩序是他執掌中央權利的義務，不論是保證官僚君主體系的正常運作還是保障帝國之內平民不受蠱惑恐嚇而暴動，他都覺得有必要細查此事，因此全國性的案件拉開帷幕。</p>
+<p>  在當時文字獄早已司空見慣，司法審判最常用的手段還是嚴刑逼供，下級的審判來到上級時經產性的申冤慾翻案，供詞不一影響着司法效率，雖然在《大清律例》中對這些真假巫術模棱兩可的以不可知的描述放在吃灰的角落里。但上層和下層的恐慌這次是一致的，像”除賤為良“般，官民開始針對可疑的流浪乞丐僧人以及當地道士。</p>
+<p>  這次範圍從江南傳播到湖廣再到山東山西最後到京城。君主的猜忌質疑往往持續“一年半載”而清醒只需一刻報告建議。尤以山東巡撫富尼漢針對被捕刁民的審訊報告為導火綫開始，一個個傳奇又變化的故事開始了。</p>
+<p>  在乾隆年間滿清的官僚體系中，旗人占部分，滿人占三成，剩下的以漢人為主，君臣之間有着秘密的朱批通訊機制。而官僚的三年一考覈也是通過這通訊機制為基礎，官員在斟酌個體功德與損害時往往極力平化這些影響，只用些“樸素”的字詞評價下屬官員，既不會因引薦失誤而收單彈劾也不會影響自身仕途。在叫魂案早期，這些“江南惡習”也持續影響存在于各類奏折中。</p>
+<p>…</p>
+<p>  那時社會上表現的冤冤相報形式的敵意，從編纂的謊言到演出的戲劇，在戲中戲中來打擊報復仇敵或者苟延着得到些私利，每一個參與者都可以是暴力的武器，傳統儒家道德幾乎在那時消逝殆盡，沒有人得到會補償，只剩下參與者的自我滿足在流淌。超現實的未知激發刁民的興趣，陰間勾當的流言也可以是刁民區分乞丐們的證明，區分生死，區分惡福，以證明自身的聖潔而非污染之人。這些幻覺權利，讓刁民有了審判更低等人的資格，如同CR時期被喚起野心的年輕人，建立的基礎都是虛無罷了。</p>
+<p>…</p>
 <hr>
-<img src="/posts/f4d39731/44.jpg" class="" title="This is a test jpg.">
-
-<p>來自圖誌協的關愛及千裏外十日前珍藏的小餅</p>
+<p>22.5.14</p>
+<p>世事變遷，命運的暫放;歷史的輪迴。夢的開始~</p>
 ]]></content>
       <categories>
-        <category>杂谈</category>
+        <category>阅读2021</category>
       </categories>
       <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在CentOs上嘗試搭建Minecraft服務器</title>
-    <url>/posts/797194f4/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言 "></a>前言 <span id="more"></span></h2><p>有點想玩暮色森林，然而作者還擱在1.16.5的測試中，只能拿1.15.2來玩玩了。剛接觸這個mod大概在6年前用1.7.2測試玩，那時倒沒有奇葩附魔之類的流流，只是單純的插件與模組的快樂。這個模組目前完成了大概80%，劇情適中，可以當另一個世界用，不過總體還是適合單人遊戲，因為某玩家劇情boss弄完后其他玩家就得重置世界了，不過我還是想把它放到服務器上，因為覺得這是個類多人rpg的模組，單人遊戲難以獲得持續的快樂<del>Minecraft多人才永遠快樂(永恆)</del></p>
-<p>​    至於如何去方法，mcbbs有很多可以參考，<del>不會甚至去csdn上翻</del>，我只紀録下遇到的坑點，給自己留個幾號</p>
-<hr>
-<h2 id="成功運行服務端卻搜索不到IP"><a href="#成功運行服務端卻搜索不到IP" class="headerlink" title="成功運行服務端卻搜索不到IP:"></a>成功運行服務端卻搜索不到IP:</h2><h4 id="當使用雲服務器時"><a href="#當使用雲服務器時" class="headerlink" title="當使用雲服務器時:"></a>當使用雲服務器時:</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 检查配置文件server.properties中的server-ip=选项，默認不填或0.0.0.0</span><br><span class="line">2 检查云服务器控制台中的安全组是否开放端口，因為我用的是阿里雲，記得在安全組開25565端口</span><br></pre></td></tr></table></figure>
-
-<h4 id="當使用linux系統-如Centos，Ubuntu"><a href="#當使用linux系統-如Centos，Ubuntu" class="headerlink" title="當使用linux系統(如Centos，Ubuntu)"></a>當使用linux系統(如Centos，Ubuntu)</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 linux系统自带防火墙是否关闭；centos7為例的命令（沒錯就我一直忘了系統居然自帶防火墻）</span><br><span class="line">systemctl stop firewalld.service</span><br><span class="line">systemctl disable firewalld.service</span><br><span class="line"></span><br><span class="line">2 SELinux是否关闭；在配置文件修改</span><br><span class="line">vi /etc/selinux/config</span><br><span class="line">将SELINUX=enforcing改为SELINUX=disabled</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h3 id="無法啓動服務端："><a href="#無法啓動服務端：" class="headerlink" title="無法啓動服務端："></a>無法啓動服務端：</h3><p>如果玩模組服，強烈建議每放1~3個mod時在本地的win server上運行一遍，包括但不限於語言衝突，ID類型衝突，粒子效應衝突等等，否則就一直錯誤警告強制停止而摸不着頭，另外服務端運行的內存需要設定正確，比如我2g的服務器大概只能弄個1g的java運行內存，否則時常宕機</p>
-<hr>
-<h2 id="關於java8安裝錯誤不會裝的問題"><a href="#關於java8安裝錯誤不會裝的問題" class="headerlink" title="關於java8安裝錯誤不會裝的問題:"></a>關於java8安裝錯誤<del>不會裝</del>的問題:</h2><p>因為個人的阿里雲內存不足，通常1.15.X以上的純淨得要4g才流暢運行，所有選擇1.12.2，然而網上的jre/jdk怎麽都是1.8.0.118之類的，軟件直鏈都過期了，官網上還得註冊的繁瑣步驟，個人直接下載，ftp傳到linux上，在linux上運行/解壓時得設置cd好正確的運行目録及正確的文件名，否則就無法找到文件</p>
-<p>出現如這些提示</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">java/***/libawt_xawt.so: libXtst.so.6: 无法打开共享对象文件: 没有那个文件或目录</span><br></pre></td></tr></table></figure>
-
-
-
-<p>使用     <code>yum install libXi libXp libXtst</code></p>
-<p>……待補充</p>
-<h2 id="關於1-15-2客戶端下載"><a href="#關於1-15-2客戶端下載" class="headerlink" title="關於1.15.2客戶端下載"></a>關於1.15.2客戶端下載</h2><p>[提取碼7777]<a href="https://pan.baidu.com/s/1o0oW_V45EzCYOhIAS6Fc_w">https://pan.baidu.com/s/1o0oW_V45EzCYOhIAS6Fc_w</a></p>
-<p>阿里盤弄不了，下次嘗試弄個個人雲盤掛在服務器上</p>
-<h2 id="關於我搭建Minecraft服務器"><a href="#關於我搭建Minecraft服務器" class="headerlink" title="關於我搭建Minecraft服務器"></a>關於我搭建Minecraft服務器</h2><p>只要有1.15.2+冰与火+虚无世界，就能連接至 <code>mc.witcicas.com</code>一起遊玩了！</p>
-<p>目前服務器能載二個大型模組+<del>各類插件</del></p>
-<img src="/posts/797194f4/c.png" class="" title="This is a test png.">
-
-
-
-<img src="/posts/797194f4/xx.png" class="" title="This is a test png.">
-
-
-
-<h4 id="關於插件管理的進度"><a href="#關於插件管理的進度" class="headerlink" title="關於插件管理的進度"></a>關於插件管理的進度</h4><p>我現在着實難綳，forge端原來不支持插件的，只能另弄spigot傳到服務器上(暫時擱置)，沒錯插件指令目前用不了</p>
-<hr>
-<p>现在又尝试弄个海绵服，2個大型模組裝上去后大概要1.5g，服務器宕機了…</p>
-<h2 id="尾言"><a href="#尾言" class="headerlink" title="尾言"></a>尾言</h2><p>關服…完</p>
-]]></content>
-      <categories>
-        <category>游戏</category>
-      </categories>
-      <tags>
-        <tag>我的世界</tag>
+        <tag>《叫魂》</tag>
       </tags>
   </entry>
   <entry>
@@ -280,30 +304,6 @@
       </categories>
       <tags>
         <tag>夢</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《叫魂》---從叫魂案中展現的一方社會秩序</title>
-    <url>/posts/f4797983/</url>
-    <content><![CDATA[<p>​    <span id="more"></span></p>
-<p>  發生在乾隆年間江南德清地區的一莊由剪辮陰魂恐慌案，雖然儒家文化下對於奇異鬼术往往是”敬鬼神而遠之”，官民對此往往持不可知的態度對待，但為何此等可有可無之事會引發全國性的恐慌呢？</p>
-<p>  在中國傳統文化中妖術往往聯繫到鬼神，恐懼的原因來自軀體聯繫的脆弱性，懼怕自己丟魂，意味着普羅大眾間默認存在超自然力量對生活的影響。</p>
-<p>  從受眾對象來說，只是在流浪乞丐與遊方僧道以及官員之間發生，並不包括縉紳卻包括普通平民。起初官員對此事持無為態度，在官僚君主制中，凡是不影響徵收賦稅、救濟賑災等等影響個人仕途的大事，基本都大事化無。但這次君主派遣的秘密監察帶來的消息觸及到了弘歷的神經-剪辮，這既是滿漢之間矛盾的焦點，也是全國統一的維護君權受命於天的正統標誌象徵。維持帝國秩序是他執掌中央權利的義務，不論是保證官僚君主體系的正常運作還是保障帝國之內平民不受蠱惑恐嚇而暴動，他都覺得有必要細查此事，因此全國性的案件拉開帷幕。</p>
-<p>  在當時文字獄早已司空見慣，司法審判最常用的手段還是嚴刑逼供，下級的審判來到上級時經產性的申冤慾翻案，供詞不一影響着司法效率，雖然在《大清律例》中對這些真假巫術模棱兩可的以不可知的描述放在吃灰的角落里。但上層和下層的恐慌這次是一致的，像”除賤為良“般，官民開始針對可疑的流浪乞丐僧人以及當地道士。</p>
-<p>  這次範圍從江南傳播到湖廣再到山東山西最後到京城。君主的猜忌質疑往往持續“一年半載”而清醒只需一刻報告建議。尤以山東巡撫富尼漢針對被捕刁民的審訊報告為導火綫開始，一個個傳奇又變化的故事開始了。</p>
-<p>  在乾隆年間滿清的官僚體系中，旗人占部分，滿人占三成，剩下的以漢人為主，君臣之間有着秘密的朱批通訊機制。而官僚的三年一考覈也是通過這通訊機制為基礎，官員在斟酌個體功德與損害時往往極力平化這些影響，只用些“樸素”的字詞評價下屬官員，既不會因引薦失誤而收單彈劾也不會影響自身仕途。在叫魂案早期，這些“江南惡習”也持續影響存在于各類奏折中。</p>
-<p>…</p>
-<p>  那時社會上表現的冤冤相報形式的敵意，從編纂的謊言到演出的戲劇，在戲中戲中來打擊報復仇敵或者苟延着得到些私利，每一個參與者都可以是暴力的武器，傳統儒家道德幾乎在那時消逝殆盡，沒有人得到會補償，只剩下參與者的自我滿足在流淌。超現實的未知激發刁民的興趣，陰間勾當的流言也可以是刁民區分乞丐們的證明，區分生死，區分惡福，以證明自身的聖潔而非污染之人。這些幻覺權利，讓刁民有了審判更低等人的資格，如同CR時期被喚起野心的年輕人，建立的基礎都是虛無罷了。</p>
-<p>…</p>
-<hr>
-<p>22.5.14</p>
-<p>世事變遷，命運的暫放;歷史的輪迴。夢的開始~</p>
-]]></content>
-      <categories>
-        <category>阅读2021</category>
-      </categories>
-      <tags>
-        <tag>《叫魂》</tag>
       </tags>
   </entry>
   <entry>
@@ -342,63 +342,6 @@
       </categories>
       <tags>
         <tag>Slay the Spire</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>阅读:《巴赫 艾舍尔 哥德尔》</title>
-    <url>/posts/6d255edb/</url>
-    <content><![CDATA[<p>​     <span id="more"></span></p>
-<blockquote>
-<p>有多少人因为卡农而迷恋上古典音乐？来一首巴赫的《<a href="https://c.y.qq.com/base/fcgi-bin/u?__=B0CbrXJt44qx">音乐的奉献</a>》吧！</p>
-</blockquote>
-<h4 id="卡农和赋格"><a href="#卡农和赋格" class="headerlink" title="卡农和赋格"></a>卡农和赋格</h4><p>卡农基本点：单一的主题与它自己相伴而奏，不同声部分别唱出主题“副本”。</p>
-<p>最基本的展现方式：轮唱</p>
-<p>每个音符的作用：旋律的一部分；同一旋律和声部分</p>
-<p>较复杂的卡农：主题副本既在种种时间上，又在音高上相互交错</p>
-<p>更复杂的卡农：各个声部速度不同</p>
-<p>更复杂的卡农: 主题转位，每当原来主题跳上时就跳下，两者所越的半音数目相同</p>
-<p>玄奥的“副本”：逆行–主题依一定时间从后往前奏出（螃蟹卡农）</p>
-<p>赋格：一个主题上以不同声部不同调子不同速度/上下颠倒/从后往前演奏</p>
-<p>赋格开始标识：单独一个声部唱出主题，完后第二个声部或移高五度或降低四度进入；同时第一声部继续对应主题(第二主题)，在节奏和声旋律与主题形成对比。</p>
-<p>…待续</p>
-]]></content>
-      <categories>
-        <category>阅读2021</category>
-      </categories>
-      <tags>
-        <tag>集異璧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>圣诞随想</title>
-    <url>/posts/879bed5e/</url>
-    <content><![CDATA[<p>​     <span id="more"></span></p>
-<p>   今日聖誕節，在西方據說是耶穌誕辰。</p>
-<p>   在齊太史簡，在晉董狐筆。今夜也憂愁，重翻了翻《矛盾論》《實踐論》。引他一首詩來抒情吧！</p>
-<blockquote>
-<blockquote>
-<p>《十六字令》</p>
-<p>山，快马加鞭未下鞍。惊回首，离天三尺三。</p>
-<p>山，倒海翻江卷巨澜。奔腾急，万马战犹酣。</p>
-<p>山，刺破青天锷未残。天欲堕，赖以拄其间。</p>
-</blockquote>
-<p>贺新郎·读史</p>
-<p>人猿相揖别。只几个石头磨过，小儿时节。</p>
-<p>铜铁炉中翻火焰，为问何时猜得？不过几千寒热。</p>
-<p>人世难逢开口笑，上疆场彼此弯弓月。流遍了，郊原血。</p>
-<p>一篇读罢头飞雪，但记得斑斑点点，几行陈迹。</p>
-<p>五帝三皇神圣事，骗了无涯过客。有多少风流人物？</p>
-<p>盗跖庄蹻流誉后，更陈王奋起挥黄钺。</p>
-<p>歌未竟，东方白。</p>
-</blockquote>
-<p>没有完人，个人崇拜不可取。以至于逝去，谁能做出正确的评价？到底是权力争夺的狂欢还是心中至高理想的追求？后人在水晶棺前的嘲讽与跨时代赤色突起的狂热风潮再现，阶级矛盾是谁在重演，谁在主导？造神与弃神，左派与右派，粉红与神友，历史周期终究在上演。<em>人类从历史中学到的唯一的教训,就是没有从历史中吸取到任何教训。</em></p>
-<hr>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>随谈</tag>
       </tags>
   </entry>
   <entry>
@@ -534,6 +477,94 @@
       </tags>
   </entry>
   <entry>
+    <title>阅读:《巴赫 艾舍尔 哥德尔》</title>
+    <url>/posts/6d255edb/</url>
+    <content><![CDATA[<p>​     <span id="more"></span></p>
+<blockquote>
+<p>有多少人因为卡农而迷恋上古典音乐？来一首巴赫的《<a href="https://c.y.qq.com/base/fcgi-bin/u?__=B0CbrXJt44qx">音乐的奉献</a>》吧！</p>
+</blockquote>
+<h4 id="卡农和赋格"><a href="#卡农和赋格" class="headerlink" title="卡农和赋格"></a>卡农和赋格</h4><p>卡农基本点：单一的主题与它自己相伴而奏，不同声部分别唱出主题“副本”。</p>
+<p>最基本的展现方式：轮唱</p>
+<p>每个音符的作用：旋律的一部分；同一旋律和声部分</p>
+<p>较复杂的卡农：主题副本既在种种时间上，又在音高上相互交错</p>
+<p>更复杂的卡农：各个声部速度不同</p>
+<p>更复杂的卡农: 主题转位，每当原来主题跳上时就跳下，两者所越的半音数目相同</p>
+<p>玄奥的“副本”：逆行–主题依一定时间从后往前奏出（螃蟹卡农）</p>
+<p>赋格：一个主题上以不同声部不同调子不同速度/上下颠倒/从后往前演奏</p>
+<p>赋格开始标识：单独一个声部唱出主题，完后第二个声部或移高五度或降低四度进入；同时第一声部继续对应主题(第二主题)，在节奏和声旋律与主题形成对比。</p>
+<p>…待续</p>
+]]></content>
+      <categories>
+        <category>阅读2021</category>
+      </categories>
+      <tags>
+        <tag>集異璧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>圣诞随想</title>
+    <url>/posts/879bed5e/</url>
+    <content><![CDATA[<p>​     <span id="more"></span></p>
+<p>   今日聖誕節，在西方據說是耶穌誕辰。</p>
+<p>   在齊太史簡，在晉董狐筆。今夜也憂愁，重翻了翻《矛盾論》《實踐論》。引他一首詩來抒情吧！</p>
+<blockquote>
+<blockquote>
+<p>《十六字令》</p>
+<p>山，快马加鞭未下鞍。惊回首，离天三尺三。</p>
+<p>山，倒海翻江卷巨澜。奔腾急，万马战犹酣。</p>
+<p>山，刺破青天锷未残。天欲堕，赖以拄其间。</p>
+</blockquote>
+<p>贺新郎·读史</p>
+<p>人猿相揖别。只几个石头磨过，小儿时节。</p>
+<p>铜铁炉中翻火焰，为问何时猜得？不过几千寒热。</p>
+<p>人世难逢开口笑，上疆场彼此弯弓月。流遍了，郊原血。</p>
+<p>一篇读罢头飞雪，但记得斑斑点点，几行陈迹。</p>
+<p>五帝三皇神圣事，骗了无涯过客。有多少风流人物？</p>
+<p>盗跖庄蹻流誉后，更陈王奋起挥黄钺。</p>
+<p>歌未竟，东方白。</p>
+</blockquote>
+<p>没有完人，个人崇拜不可取。以至于逝去，谁能做出正确的评价？到底是权力争夺的狂欢还是心中至高理想的追求？后人在水晶棺前的嘲讽与跨时代赤色突起的狂热风潮再现，阶级矛盾是谁在重演，谁在主导？造神与弃神，左派与右派，粉红与神友，历史周期终究在上演。<em>人类从历史中学到的唯一的教训,就是没有从历史中吸取到任何教训。</em></p>
+<hr>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>随谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《交易的真相》摘録</title>
+    <url>/posts/6658979a/</url>
+    <content><![CDATA[<p>​     <span id="more"></span></p>
+<p>K綫廣為流傳的說法：壓力和支撐的相互轉化</p>
+<hr>
+<p>止損點為了防止特殊情況準備的</p>
+<hr>
+<p>趨勢綫：人總是選擇自己願意相信的東西，一旦形成固化思維，總想找到規律(如壓力和支撐)</p>
+<p>KD(隨機指標)</p>
+<p>完全不預測市場的系統：</p>
+<p>不下嗎交易的修正</p>
+<p>1.選擇勝率最高，盈虧比高的做法，且只用一兩種手法</p>
+<p>2.減少操作品種</p>
+<hr>
+<p>“市場的一切行為，都只有一個目的，就是耍你”</p>
+<hr>
+<p>墨菲定律</p>
+<p>1.任何事都沒有表面看起來那麽簡單</p>
+<p>2.所有的事都會比你預計的時間長</p>
+<p>3.會出錯的事總會出錯</p>
+<p>4.如果擔心某種情況發生，那麽它更有可能發生</p>
+<hr>
+<blockquote>
+<p>看了大概一半，就K线分析举例…这名字与内容一比，真噱头~~</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>阅读2021</category>
+      </categories>
+  </entry>
+  <entry>
     <title>《看人的藝術》摘録</title>
     <url>/posts/3d5d3f15/</url>
     <content><![CDATA[<p>​     <span id="more"></span></p>
@@ -603,37 +634,6 @@
       <tags>
         <tag>Run</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>《交易的真相》摘録</title>
-    <url>/posts/6658979a/</url>
-    <content><![CDATA[<p>​     <span id="more"></span></p>
-<p>K綫廣為流傳的說法：壓力和支撐的相互轉化</p>
-<hr>
-<p>止損點為了防止特殊情況準備的</p>
-<hr>
-<p>趨勢綫：人總是選擇自己願意相信的東西，一旦形成固化思維，總想找到規律(如壓力和支撐)</p>
-<p>KD(隨機指標)</p>
-<p>完全不預測市場的系統：</p>
-<p>不下嗎交易的修正</p>
-<p>1.選擇勝率最高，盈虧比高的做法，且只用一兩種手法</p>
-<p>2.減少操作品種</p>
-<hr>
-<p>“市場的一切行為，都只有一個目的，就是耍你”</p>
-<hr>
-<p>墨菲定律</p>
-<p>1.任何事都沒有表面看起來那麽簡單</p>
-<p>2.所有的事都會比你預計的時間長</p>
-<p>3.會出錯的事總會出錯</p>
-<p>4.如果擔心某種情況發生，那麽它更有可能發生</p>
-<hr>
-<blockquote>
-<p>看了大概一半，就K线分析举例…这名字与内容一比，真噱头~~</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>阅读2021</category>
-      </categories>
   </entry>
   <entry>
     <title>略读:《拖延心理學》</title>
@@ -750,24 +750,6 @@
       </tags>
   </entry>
   <entry>
-    <title>八月闲谈</title>
-    <url>/posts/192f5f8d/</url>
-    <content><![CDATA[<p>​          <span id="more"></span></p>
-<blockquote>
-<p> 祛魅、解构、重铸</p>
-</blockquote>
-<p>​        听说国外整合心理学已属于心理学第四浪潮，主要针对前现代主义玄学哲学神秘学等文化进行理论研究。现代灵修起源于印度的瑜伽行派(唯识宗)，其确定根本实体-人之思(阿赖耶识)与智识(末那什)，两者也即“三界唯心，万法唯识”。意识连同五官感觉，统称境/现象。唯识宗的“因果熏习说”，依“阿赖耶-末那-境”结构运转。它非空非形，因果，统摄。因果运转，果为“熏习”，以“无明”为动力。人不知便不得，“无明”隐匿，无法斩除，唯了断自我(断灭心识)方不为”无明”所制。唯识宗捍卫假后之真，虚无有实。</p>
-<p>​      而超个人心理学学者肯恩威尔伯批判佛洛依德，批判马克思，批判费尔巴哈，提出一些有意思的理论，目的是达到万物统摄。当今主流与逆流思想的碰撞漩涡甚是精彩。世事光怪，争论为奇。</p>
-<p>​      </p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Pick-up Artist分析</title>
     <url>/posts/53240476/</url>
     <content><![CDATA[<p>​    <span id="more"></span></p>
@@ -828,6 +810,24 @@
       </categories>
       <tags>
         <tag>PUA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>八月闲谈</title>
+    <url>/posts/192f5f8d/</url>
+    <content><![CDATA[<p>​          <span id="more"></span></p>
+<blockquote>
+<p> 祛魅、解构、重铸</p>
+</blockquote>
+<p>​        听说国外整合心理学已属于心理学第四浪潮，主要针对前现代主义玄学哲学神秘学等文化进行理论研究。现代灵修起源于印度的瑜伽行派(唯识宗)，其确定根本实体-人之思(阿赖耶识)与智识(末那什)，两者也即“三界唯心，万法唯识”。意识连同五官感觉，统称境/现象。唯识宗的“因果熏习说”，依“阿赖耶-末那-境”结构运转。它非空非形，因果，统摄。因果运转，果为“熏习”，以“无明”为动力。人不知便不得，“无明”隐匿，无法斩除，唯了断自我(断灭心识)方不为”无明”所制。唯识宗捍卫假后之真，虚无有实。</p>
+<p>​      而超个人心理学学者肯恩威尔伯批判佛洛依德，批判马克思，批判费尔巴哈，提出一些有意思的理论，目的是达到万物统摄。当今主流与逆流思想的碰撞漩涡甚是精彩。世事光怪，争论为奇。</p>
+<p>​      </p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
       </tags>
   </entry>
 </search>
