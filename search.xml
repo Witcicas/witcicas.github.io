@@ -17,6 +17,64 @@
       </tags>
   </entry>
   <entry>
+    <title>嘗試在Win上搭建L4D2服務器</title>
+    <url>/posts/603c3eec/</url>
+    <content><![CDATA[<p>   最近在Ali云上搞了一台win服務器，<del>設置失誤QWQ</del>  配置如下</p>
+<span id="more"></span>
+
+<table>
+<thead>
+<tr>
+<th>CPU&amp;内存</th>
+<th>1核 2 GiB    100%性能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>操作系统</td>
+<td>Windows Server 2019 数据中心版 64位中文版</td>
+</tr>
+<tr>
+<td>镜像ID</td>
+<td>win2019_1809_x64_dtc_zh-cn_40G_alibase_20210715.vhd</td>
+</tr>
+</tbody></table>
+<p>雖然操作熟悉，但打開時發現居然比垃圾站的奔騰神教還磨蹭，流暢級別可以說是混沌級了</p>
+<p>開機&gt;滴&gt;4分鐘&gt;滴&gt;載入用戶&gt;滴&gt;環境設置…10分鐘</p>
+<p>拿來挖門羅只有10H/s，於是決定設Gaming服務器了</p>
+ <img src="/posts/603c3eec/text1.jpg" class="" title="This is a test jpg.">
+
+
+
+<p>然后解压缩放到自己設立的服務器文件夾</p>
+   <img src="/posts/603c3eec/22.jpg" class="" title="This is a test jpg.">
+
+<p>接着在文件夾任意新建*.bat格式</p>
+<p>接着用記事本打開輸入</p>
+<p><code>start steamcmd.exe +login anonymous +force_install_dir l4d2_sv +app_update 222860 validate +quit</code></p>
+<p>保存後繼續雙擊，開始自動下載所需的問價</p>
+ <img src="/posts/603c3eec/1.png" class="" title="This is a test png.">
+
+<p>等待完成</p>
+<h1 id="完成后開始"><a href="#完成后開始" class="headerlink" title="完成后開始"></a>完成后開始</h1><p>進入l4d2_sv文件夾，打开srcds.exe</p>
+ <img src="/posts/603c3eec/2.png" class="" title="This is a test png.">
+
+
+
+<p>自定義設置完</p>
+ <img src="/posts/603c3eec/3.png" class="" title="This is a test png.">
+
+<p>用公網IP登録~</p>
+<p>開始Gaming！</p>
+<p>—-待續</p>
+]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>求生之路2</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>再試Ninja</title>
     <url>/posts/4aa410a5/</url>
     <content><![CDATA[<p>​        <span id="more"></span></p>
@@ -156,64 +214,6 @@
       </tags>
   </entry>
   <entry>
-    <title>嘗試在Win上搭建L4D2服務器</title>
-    <url>/posts/603c3eec/</url>
-    <content><![CDATA[<p>   最近在Ali云上搞了一台win服務器，<del>設置失誤QWQ</del>  配置如下</p>
-<span id="more"></span>
-
-<table>
-<thead>
-<tr>
-<th>CPU&amp;内存</th>
-<th>1核 2 GiB    100%性能</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>操作系统</td>
-<td>Windows Server 2019 数据中心版 64位中文版</td>
-</tr>
-<tr>
-<td>镜像ID</td>
-<td>win2019_1809_x64_dtc_zh-cn_40G_alibase_20210715.vhd</td>
-</tr>
-</tbody></table>
-<p>雖然操作熟悉，但打開時發現居然比垃圾站的奔騰神教還磨蹭，流暢級別可以說是混沌級了</p>
-<p>開機&gt;滴&gt;4分鐘&gt;滴&gt;載入用戶&gt;滴&gt;環境設置…10分鐘</p>
-<p>拿來挖門羅只有10H/s，於是決定設Gaming服務器了</p>
- <img src="/posts/603c3eec/text1.jpg" class="" title="This is a test jpg.">
-
-
-
-<p>然后解压缩放到自己設立的服務器文件夾</p>
-   <img src="/posts/603c3eec/22.jpg" class="" title="This is a test jpg.">
-
-<p>接着在文件夾任意新建*.bat格式</p>
-<p>接着用記事本打開輸入</p>
-<p><code>start steamcmd.exe +login anonymous +force_install_dir l4d2_sv +app_update 222860 validate +quit</code></p>
-<p>保存後繼續雙擊，開始自動下載所需的問價</p>
- <img src="/posts/603c3eec/1.png" class="" title="This is a test png.">
-
-<p>等待完成</p>
-<h1 id="完成后開始"><a href="#完成后開始" class="headerlink" title="完成后開始"></a>完成后開始</h1><p>進入l4d2_sv文件夾，打开srcds.exe</p>
- <img src="/posts/603c3eec/2.png" class="" title="This is a test png.">
-
-
-
-<p>自定義設置完</p>
- <img src="/posts/603c3eec/3.png" class="" title="This is a test png.">
-
-<p>用公網IP登録~</p>
-<p>開始Gaming！</p>
-<p>—-待續</p>
-]]></content>
-      <categories>
-        <category>游戏</category>
-      </categories>
-      <tags>
-        <tag>求生之路2</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>在CentOs上嘗試搭建Minecraft服務器</title>
     <url>/posts/797194f4/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言 "></a>前言 <span id="more"></span></h2><p>有點想玩暮色森林，然而作者還擱在1.16.5的測試中，只能拿1.15.2來玩玩了。剛接觸這個mod大概在6年前用1.7.2測試玩，那時倒沒有奇葩附魔之類的流流，只是單純的插件與模組的快樂。這個模組目前完成了大概80%，劇情適中，可以當另一個世界用，不過總體還是適合單人遊戲，因為某玩家劇情boss弄完后其他玩家就得重置世界了，不過我還是想把它放到服務器上，因為覺得這是個類多人rpg的模組，單人遊戲難以獲得持續的快樂<del>Minecraft多人才永遠快樂(永恆)</del></p>
@@ -256,6 +256,30 @@
       </categories>
       <tags>
         <tag>我的世界</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中二片段【记梦】</title>
+    <url>/posts/7c980ad7/</url>
+    <content><![CDATA[<p>–<span id="more"></span></p>
+<blockquote>
+<p>人會做相同的的夢嗎？還是人只能做那些夢，只因為遺忘而認為人的夢是無限的嗎？</p>
+<p>现在是11月22日，前陣子我看到有人說，夢境只不過是半個囚籠，靈魂意識的分離然後部分的體驗已經設置好了的夢，即大部分情況下，無自主意識的夢對個人來說仍是個圈套。我覺得還是白日夢最靠譜，畢竟在夢中也要做個體意識的主人，下面皆為少年中二妄想症病發的記録…</p>
+</blockquote>
+<blockquote>
+<p>Delete</p>
+</blockquote>
+<hr>
+<hr>
+<blockquote>
+<p>红书描绘的对话构想世界真是疯狂，除了英语课本外看这类便头晕，现在以我看来过去的梦没有意义，遂全部删去</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>夢</tag>
       </tags>
   </entry>
   <entry>
@@ -321,27 +345,28 @@
       </tags>
   </entry>
   <entry>
-    <title>中二片段【记梦】</title>
-    <url>/posts/7c980ad7/</url>
-    <content><![CDATA[<p>–<span id="more"></span></p>
+    <title>阅读:《巴赫 艾舍尔 哥德尔》</title>
+    <url>/posts/6d255edb/</url>
+    <content><![CDATA[<p>​     <span id="more"></span></p>
 <blockquote>
-<p>人會做相同的的夢嗎？還是人只能做那些夢，只因為遺忘而認為人的夢是無限的嗎？</p>
-<p>现在是11月22日，前陣子我看到有人說，夢境只不過是半個囚籠，靈魂意識的分離然後部分的體驗已經設置好了的夢，即大部分情況下，無自主意識的夢對個人來說仍是個圈套。我覺得還是白日夢最靠譜，畢竟在夢中也要做個體意識的主人，下面皆為少年中二妄想症病發的記録…</p>
+<p>有多少人因为卡农而迷恋上古典音乐？来一首巴赫的《<a href="https://c.y.qq.com/base/fcgi-bin/u?__=B0CbrXJt44qx">音乐的奉献</a>》吧！</p>
 </blockquote>
-<blockquote>
-<p>Delete</p>
-</blockquote>
-<hr>
-<hr>
-<blockquote>
-<p>红书描绘的对话构想世界真是疯狂，除了英语课本外看这类便头晕，现在以我看来过去的梦没有意义，遂全部删去</p>
-</blockquote>
+<h4 id="卡农和赋格"><a href="#卡农和赋格" class="headerlink" title="卡农和赋格"></a>卡农和赋格</h4><p>卡农基本点：单一的主题与它自己相伴而奏，不同声部分别唱出主题“副本”。</p>
+<p>最基本的展现方式：轮唱</p>
+<p>每个音符的作用：旋律的一部分；同一旋律和声部分</p>
+<p>较复杂的卡农：主题副本既在种种时间上，又在音高上相互交错</p>
+<p>更复杂的卡农：各个声部速度不同</p>
+<p>更复杂的卡农: 主题转位，每当原来主题跳上时就跳下，两者所越的半音数目相同</p>
+<p>玄奥的“副本”：逆行–主题依一定时间从后往前奏出（螃蟹卡农）</p>
+<p>赋格：一个主题上以不同声部不同调子不同速度/上下颠倒/从后往前演奏</p>
+<p>赋格开始标识：单独一个声部唱出主题，完后第二个声部或移高五度或降低四度进入；同时第一声部继续对应主题(第二主题)，在节奏和声旋律与主题形成对比。</p>
+<p>…待续</p>
 ]]></content>
       <categories>
-        <category>记录</category>
+        <category>阅读2021</category>
       </categories>
       <tags>
-        <tag>夢</tag>
+        <tag>集異璧</tag>
       </tags>
   </entry>
   <entry>
@@ -374,31 +399,6 @@
       </categories>
       <tags>
         <tag>随谈</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>阅读:《巴赫 艾舍尔 哥德尔》</title>
-    <url>/posts/6d255edb/</url>
-    <content><![CDATA[<p>​     <span id="more"></span></p>
-<blockquote>
-<p>有多少人因为卡农而迷恋上古典音乐？来一首巴赫的《<a href="https://c.y.qq.com/base/fcgi-bin/u?__=B0CbrXJt44qx">音乐的奉献</a>》吧！</p>
-</blockquote>
-<h4 id="卡农和赋格"><a href="#卡农和赋格" class="headerlink" title="卡农和赋格"></a>卡农和赋格</h4><p>卡农基本点：单一的主题与它自己相伴而奏，不同声部分别唱出主题“副本”。</p>
-<p>最基本的展现方式：轮唱</p>
-<p>每个音符的作用：旋律的一部分；同一旋律和声部分</p>
-<p>较复杂的卡农：主题副本既在种种时间上，又在音高上相互交错</p>
-<p>更复杂的卡农：各个声部速度不同</p>
-<p>更复杂的卡农: 主题转位，每当原来主题跳上时就跳下，两者所越的半音数目相同</p>
-<p>玄奥的“副本”：逆行–主题依一定时间从后往前奏出（螃蟹卡农）</p>
-<p>赋格：一个主题上以不同声部不同调子不同速度/上下颠倒/从后往前演奏</p>
-<p>赋格开始标识：单独一个声部唱出主题，完后第二个声部或移高五度或降低四度进入；同时第一声部继续对应主题(第二主题)，在节奏和声旋律与主题形成对比。</p>
-<p>…待续</p>
-]]></content>
-      <categories>
-        <category>阅读2021</category>
-      </categories>
-      <tags>
-        <tag>集異璧</tag>
       </tags>
   </entry>
   <entry>
@@ -534,61 +534,6 @@
       </tags>
   </entry>
   <entry>
-    <title>《交易的真相》摘録</title>
-    <url>/posts/6658979a/</url>
-    <content><![CDATA[<p>​     <span id="more"></span></p>
-<p>K綫廣為流傳的說法：壓力和支撐的相互轉化</p>
-<hr>
-<p>止損點為了防止特殊情況準備的</p>
-<hr>
-<p>趨勢綫：人總是選擇自己願意相信的東西，一旦形成固化思維，總想找到規律(如壓力和支撐)</p>
-<p>KD(隨機指標)</p>
-<p>完全不預測市場的系統：</p>
-<p>不下嗎交易的修正</p>
-<p>1.選擇勝率最高，盈虧比高的做法，且只用一兩種手法</p>
-<p>2.減少操作品種</p>
-<hr>
-<p>“市場的一切行為，都只有一個目的，就是耍你”</p>
-<hr>
-<p>墨菲定律</p>
-<p>1.任何事都沒有表面看起來那麽簡單</p>
-<p>2.所有的事都會比你預計的時間長</p>
-<p>3.會出錯的事總會出錯</p>
-<p>4.如果擔心某種情況發生，那麽它更有可能發生</p>
-<hr>
-<blockquote>
-<p>看了大概一半，就K线分析举例…这名字与内容一比，真噱头~~</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>阅读2021</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>貳月闲谈:写在新旧之际</title>
-    <url>/posts/ac591743/</url>
-    <content><![CDATA[<p>​        <span id="more"></span></p>
-<p>  即使立春了，乱云仍低薄暮，雾蒙蒙，寒风吹骨霜刺肌。我缩在家里看书打游戏自得其乐，但仍感到乏味。我常听老头们说会计越老越吃香，我盯着眼前的会计题目上下反复横着看，眼睛突然震颤，非人哉！还真把做两行分录当成了本事？把一个没有门槛的学科揭开其自老头们时代蒙上的面纱，便暴露其色厉内荏的本质。</p>
-<p>   有些东西接触的太少容易吃亏大了，信息差的鸿沟导致个人想法与操作的变形。拿徐州八孩进度看，目前为止发了布四次进展调查，事情像滚筒洗衣机一样无限翻转。谁知道背后有多少手推波助澜？是密谋雇佣混淆还是女拳主义或者监狱免费水军？再看看量化投资人丁鹏对他儿子的教育言语，这背后又反映了什么？我不知道。但希望能走出悲剧的循环，拒绝无关紧要的诱惑。</p>
-<p>  好似祖坟青烟冒，原是阴德积攒来。据说老家北部隔条江的棚改拆了13个村来重建新区，个个发了财；而老家面临的却是区域合并，即将从包邮区二等村民变成包邮区三等村民。这只是发生在生活中的小事。谁想踮高远眺寻找出路，便要面对那层认知的苦海，低质量的信息干扰导致一步错步步错。以我来说，我目前没有真正到洞穴外面去看过世界，只看见火焰在墙上的婆娑黑影和人在其前的恰呀欢呼，就觉得理解了全世界。在这里，满腔精力却无以昂扬，像《金瓯缺》中马扩一样南北奔波，最终会落个马齿徒增，所事无成的地步了么？</p>
-<p>   我抬头看远方细想呆滞，突然被翁的一声惊醒，原来是校园二手群的消息，里面有人在转发“考公火热，欲求一岗速速来报，独立新群”的醒目大字消息。摇头，便觉得无趣，免打扰后就点开朋友圈看看他们的世界如何精彩。第一条醒目的便是某人发的“CPA财务报考班，助你一考无忧！”我浑身寒战，摸着桌上褶皱的初级考试题目，它们如何监视着我的日常？窗外悉悉索索的雨声渐起，摆动僵硬手指往上一拖，是女孩们发在某某地方的场景，我顿时轻松，能看到丰盛而繁华的生活，好生满足，下栏全是友人们的点赞，我细数，一行，两行，居然整整三行，更甚还有人沟通吐槽。便打算整个赞，指间滑过低栏，XX广告的小标下似乎图文，竟止不住自己的脑神经，一抽，XX教育，包过考试，CPA直入眼眶，忽的天地旋转，便似岁月万年从此逝，既负韶华又负君。只觉眼前昏暗，泪点衣襟。在桌头心痛不已。痴痴一梦终究一场空。</p>
-<p>生活在改开时代营造的奇迹神话里，忽视了众多现实事实，只信我之所信。但真相是，哪能考甚么一张证书就能不劳而获？望高处想，企业为什么会对一张证书买单呢，一张对业务没有实质增益的证书。我听闻中建某局的老财即使病倒仍通宵加班拼命干，就算是盖章一年也能盖七亿。就算是多努力效率多高，没有附加值的工作内容，到头来都是劳累与苦闷，却似流水线操作工一样的方式。江湖传言道，一张CPA顶百万工薪，是无名小卒化作武林传奇的名片。可，这张名片若此，真就一张纸而已。若是一个象征呢？</p>
-<p>  我追问自己想怎么样，未来方向是何方。现在有了方向。写下这篇只为了<em>不因此景似曾识，却怪当时思维滞</em>。不愿去惊回首当年，恰逢此间烦扰，若此些琐事反反复复，人生能有几回真实潇洒？当下有感即抒发，好不快活！同自己对话，审视自己，推翻自己。算是漫漫长路的一个脚印。</p>
-<hr>
-<blockquote>
-<p>过去已死！</p>
-<p>未来的世界是对我们所有人的考验</p>
-<p>年轻人终将为过去时代立下墓碑</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>闲谈</category>
-      </categories>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《看人的藝術》摘録</title>
     <url>/posts/3d5d3f15/</url>
     <content><![CDATA[<p>​     <span id="more"></span></p>
@@ -635,6 +580,62 @@
       </tags>
   </entry>
   <entry>
+    <title>新年の企劃</title>
+    <url>/posts/ac206066/</url>
+    <content><![CDATA[<p>​        <span id="more"></span></p>
+<p>緬甸總督規劃局土耳其分部埃爾多安省西貢特區指令：C計劃啓動！</p>
+<p><del>2022戰略之全球攻勢：</del></p>
+<p><del>★絶密★</del></p>
+<p><del>C#易物項目</del></p>
+<p><del>PTE宇宙電波項目</del></p>
+<p><del>C#2.0公證項目</del></p>
+<p><del>“蓋章七億”老財審判項目</del></p>
+<p><del>“七星連環”超級兵項目</del></p>
+<p>…</p>
+<blockquote>
+<p>试试吧！</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>Run</category>
+      </categories>
+      <tags>
+        <tag>Run</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《交易的真相》摘録</title>
+    <url>/posts/6658979a/</url>
+    <content><![CDATA[<p>​     <span id="more"></span></p>
+<p>K綫廣為流傳的說法：壓力和支撐的相互轉化</p>
+<hr>
+<p>止損點為了防止特殊情況準備的</p>
+<hr>
+<p>趨勢綫：人總是選擇自己願意相信的東西，一旦形成固化思維，總想找到規律(如壓力和支撐)</p>
+<p>KD(隨機指標)</p>
+<p>完全不預測市場的系統：</p>
+<p>不下嗎交易的修正</p>
+<p>1.選擇勝率最高，盈虧比高的做法，且只用一兩種手法</p>
+<p>2.減少操作品種</p>
+<hr>
+<p>“市場的一切行為，都只有一個目的，就是耍你”</p>
+<hr>
+<p>墨菲定律</p>
+<p>1.任何事都沒有表面看起來那麽簡單</p>
+<p>2.所有的事都會比你預計的時間長</p>
+<p>3.會出錯的事總會出錯</p>
+<p>4.如果擔心某種情況發生，那麽它更有可能發生</p>
+<hr>
+<blockquote>
+<p>看了大概一半，就K线分析举例…这名字与内容一比，真噱头~~</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>阅读2021</category>
+      </categories>
+  </entry>
+  <entry>
     <title>略读:《拖延心理學》</title>
     <url>/posts/e74bf053/</url>
     <content><![CDATA[<p>​      <span id="more"></span></p>
@@ -660,6 +661,30 @@
       <tags>
         <tag>Procrastinate</tag>
         <tag>拖延成功学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>貳月闲谈:写在新旧之际</title>
+    <url>/posts/ac591743/</url>
+    <content><![CDATA[<p>​        <span id="more"></span></p>
+<p>  即使立春了，乱云仍低薄暮，雾蒙蒙，寒风吹骨霜刺肌。我缩在家里看书打游戏自得其乐，但仍感到乏味。我常听老头们说会计越老越吃香，我盯着眼前的会计题目上下反复横着看，眼睛突然震颤，非人哉！还真把做两行分录当成了本事？把一个没有门槛的学科揭开其自老头们时代蒙上的面纱，便暴露其色厉内荏的本质。</p>
+<p>   有些东西接触的太少容易吃亏大了，信息差的鸿沟导致个人想法与操作的变形。拿徐州八孩进度看，目前为止发了布四次进展调查，事情像滚筒洗衣机一样无限翻转。谁知道背后有多少手推波助澜？是密谋雇佣混淆还是女拳主义或者监狱免费水军？再看看量化投资人丁鹏对他儿子的教育言语，这背后又反映了什么？我不知道。但希望能走出悲剧的循环，拒绝无关紧要的诱惑。</p>
+<p>  好似祖坟青烟冒，原是阴德积攒来。据说老家北部隔条江的棚改拆了13个村来重建新区，个个发了财；而老家面临的却是区域合并，即将从包邮区二等村民变成包邮区三等村民。这只是发生在生活中的小事。谁想踮高远眺寻找出路，便要面对那层认知的苦海，低质量的信息干扰导致一步错步步错。以我来说，我目前没有真正到洞穴外面去看过世界，只看见火焰在墙上的婆娑黑影和人在其前的恰呀欢呼，就觉得理解了全世界。在这里，满腔精力却无以昂扬，像《金瓯缺》中马扩一样南北奔波，最终会落个马齿徒增，所事无成的地步了么？</p>
+<p>   我抬头看远方细想呆滞，突然被翁的一声惊醒，原来是校园二手群的消息，里面有人在转发“考公火热，欲求一岗速速来报，独立新群”的醒目大字消息。摇头，便觉得无趣，免打扰后就点开朋友圈看看他们的世界如何精彩。第一条醒目的便是某人发的“CPA财务报考班，助你一考无忧！”我浑身寒战，摸着桌上褶皱的初级考试题目，它们如何监视着我的日常？窗外悉悉索索的雨声渐起，摆动僵硬手指往上一拖，是女孩们发在某某地方的场景，我顿时轻松，能看到丰盛而繁华的生活，好生满足，下栏全是友人们的点赞，我细数，一行，两行，居然整整三行，更甚还有人沟通吐槽。便打算整个赞，指间滑过低栏，XX广告的小标下似乎图文，竟止不住自己的脑神经，一抽，XX教育，包过考试，CPA直入眼眶，忽的天地旋转，便似岁月万年从此逝，既负韶华又负君。只觉眼前昏暗，泪点衣襟。在桌头心痛不已。痴痴一梦终究一场空。</p>
+<p>生活在改开时代营造的奇迹神话里，忽视了众多现实事实，只信我之所信。但真相是，哪能考甚么一张证书就能不劳而获？望高处想，企业为什么会对一张证书买单呢，一张对业务没有实质增益的证书。我听闻中建某局的老财即使病倒仍通宵加班拼命干，就算是盖章一年也能盖七亿。就算是多努力效率多高，没有附加值的工作内容，到头来都是劳累与苦闷，却似流水线操作工一样的方式。江湖传言道，一张CPA顶百万工薪，是无名小卒化作武林传奇的名片。可，这张名片若此，真就一张纸而已。若是一个象征呢？</p>
+<p>  我追问自己想怎么样，未来方向是何方。现在有了方向。写下这篇只为了<em>不因此景似曾识，却怪当时思维滞</em>。不愿去惊回首当年，恰逢此间烦扰，若此些琐事反反复复，人生能有几回真实潇洒？当下有感即抒发，好不快活！同自己对话，审视自己，推翻自己。算是漫漫长路的一个脚印。</p>
+<hr>
+<blockquote>
+<p>过去已死！</p>
+<p>未来的世界是对我们所有人的考验</p>
+<p>年轻人终将为过去时代立下墓碑</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>闲谈</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
       </tags>
   </entry>
   <entry>
@@ -725,7 +750,7 @@
       </tags>
   </entry>
   <entry>
-    <title>-碎语</title>
+    <title>八月闲谈</title>
     <url>/posts/192f5f8d/</url>
     <content><![CDATA[<p>​          <span id="more"></span></p>
 <blockquote>
@@ -740,45 +765,6 @@
       </categories>
       <tags>
         <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新年の企劃</title>
-    <url>/posts/ac206066/</url>
-    <content><![CDATA[<p>​        <span id="more"></span></p>
-<p>緬甸總督規劃局土耳其分部埃爾多安省西貢特區指令：C計劃啓動！</p>
-<p><del>2022戰略之全球攻勢：</del></p>
-<p><del>★絶密★</del></p>
-<p><del>C#易物項目</del></p>
-<p><del>PTE宇宙電波項目</del></p>
-<p><del>C#2.0公證項目</del></p>
-<p><del>“蓋章七億”老財審判項目</del></p>
-<p><del>“七星連環”超級兵項目</del></p>
-<p>…</p>
-<blockquote>
-<p>试试吧！</p>
-</blockquote>
-<hr>
-]]></content>
-      <categories>
-        <category>Run</category>
-      </categories>
-      <tags>
-        <tag>Run</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>读谁在世界中心后感</title>
-    <url>/posts/4c950fbc/</url>
-    <content><![CDATA[<p>​              篇幅较长，将逐步完成……</p>
-<p>  地缘政治分析作为新的世界政治经济局势解读视角，给普通人从普通的平面视野看到世界变化趋势，可以说是当前排除阴谋论分析/两极分析等极端角度外最好的思考角度。</p>
-<p>  地缘政治成型的理论由三人相继提出</p>
-]]></content>
-      <categories>
-        <category>阅读2023</category>
-      </categories>
-      <tags>
-        <tag>地缘政治</tag>
       </tags>
   </entry>
   <entry>
